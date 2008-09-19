@@ -1,0 +1,60 @@
+public class CFBoard
+{
+     private String[][] values;
+     private String     board;
+
+     public CFBoard()
+     {
+          values = new String[6][7];
+          board = new String();
+
+          for (int i = 0; i < values.length; i++)
+          {
+               for (int j = 0; j < values[i].length; j++)
+               {
+                    values[i][j] = "_";
+               }
+          }
+          
+          for (int i = values.length; i >= 0; i--)
+          {
+               for (int j = 0; j < values[i].length; j++)
+               {
+                    board += "|" + values[i][j];
+               }
+
+               board += "|\n";
+          }
+     }
+     
+     private void redraw()
+     {
+          board = new String();
+          
+          for (int i = 0; i < values.length; i++)
+          {
+               for (int j = 0; j < values[i].length; j++)
+               {
+                    board += "|" + values[i][j];
+               }
+
+               board += "|\n";
+          }
+     }
+     
+     public void placePiece(char p, int x, int y)
+     {
+          switch(p)
+          {
+               case 'x':   values[y-1][x-1] = "x";
+               case 'o':   values[y-1][x-1] = "o";
+          }
+          
+          redraw();
+     }
+
+     public String toString()
+     {
+          return board;
+     }
+}

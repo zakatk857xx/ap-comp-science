@@ -1,0 +1,33 @@
+public class Bug
+{
+
+     private int xPos, yPos, direction;
+     
+     public Bug()
+     {
+          xPos = 0;
+          yPos = 0;
+     }
+     
+     public Bug(int x, int y)
+     {
+          xPos = x;
+          yPos = y;
+     }
+     
+     public void turn()
+     {
+          
+     }
+     
+     public void move()
+     {
+          
+     }
+     
+     public String getPosition()
+     {
+          return new String("(" + xPos + ", " + yPos + ")");
+     }
+     
+}

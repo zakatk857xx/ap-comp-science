@@ -1,0 +1,7 @@
+public class HelloWorld
+{
+     public static void main(String beans[])
+     {
+          System.out.println("All your base are belong to us");
+     }
+}

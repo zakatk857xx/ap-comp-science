@@ -1,0 +1,9 @@
+public class ConnectFour
+{
+     public static void main(String beans[])
+     {
+          CFBoard gameBoard = new CFBoard();
+          
+          System.out.println(gameBoard);
+     }
+}

@@ -1,0 +1,42 @@
+import java.util.*;
+
+public class ConnectFour
+{
+     public static void main(String beans[])
+     {
+          Scanner in = new Scanner(System.in);
+          CFBoard gameBoard = new CFBoard();
+          
+          ArrayList<String> players = new ArrayList<String>();
+          
+          int numPlayers;
+          boolean isNotOver = true;
+          
+          System.out.println("Welcome to Connect 4.\n\nHow many Players?");
+          numPlayers = in.nextInt();
+          
+          for(int i = 0; i < numPlayers; i++)
+          {
+               System.out.println("What is player " + (i + 1) + "'s name?");
+               in.next();
+               players.add(in.nextLine());
+          }
+          
+          while(isNotOver)
+          {
+               
+          }
+          
+          System.out.println(gameBoard);
+          
+          //gameBoard.placePiece('x', 2, 2);
+          gameBoard.placePieceColumn('x', 2);
+          gameBoard.placePieceColumn('o', 2);
+          gameBoard.placePieceColumn('x', 1);
+          gameBoard.placePieceColumn('o', 1);
+          gameBoard.placePieceColumn('x', 1);
+          gameBoard.placePieceColumn('o', 5);
+          
+          System.out.println(gameBoard);
+     }
+}

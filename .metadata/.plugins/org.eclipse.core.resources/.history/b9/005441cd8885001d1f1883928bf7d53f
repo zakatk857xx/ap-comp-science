@@ -1,0 +1,12 @@
+public class GreeterTester
+{
+     public static void main(String beans[])
+     {
+          Greeter g1 = new Greeter();
+          Greeter g2 = new Greeter("world");
+          Greeter g3 = new Greeter("Dave");
+          
+          System.out.println(g1.sayHello() + "\n" + g1.sayGoodbye() + "\n" + g1.refuseHelp());
+          
+     }
+}

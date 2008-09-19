@@ -1,0 +1,16 @@
+public class CFBoard
+{
+     public CFBoard()
+     {
+          String [][] values = new String[6][7];
+          String board = new String();
+          
+          for(int i = 0; i < values.length; i++)
+          {
+               for(int j = 0; j < values[i].length; j++)
+               {
+                    
+               }
+          }
+     }
+}
