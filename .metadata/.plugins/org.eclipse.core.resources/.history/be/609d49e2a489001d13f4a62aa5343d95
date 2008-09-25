@@ -1,0 +1,23 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.event.*;
+import java.util.*;
+
+public class Quoridor
+{
+     public static void main (String [] beans)
+     {
+          JFrame frame = new JFrame();
+          frame.setTitle("Quoridor");
+          frame.setLocation(350, 100);
+          frame.setSize(600, 600);
+          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          
+          frame.add(new Board());
+          
+                    
+          frame.setVisible(true);
+          
+     }//end main
+}//end Quoridor class

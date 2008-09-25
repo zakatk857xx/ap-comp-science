@@ -1,0 +1,33 @@
+import javax.swing.*;
+import java.awt.Color;
+import java.util.*;
+
+public class Windows
+{
+     public static void main(String [] argz)
+     {
+          Random gen = new Random();
+          
+          ArrayList<JFrame> frames = new ArrayList<JFrame>();
+          
+          while(true)
+          {
+               JFrame frame = new JFrame();
+               
+               frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);               
+               frame.setUndecorated(true);
+               frame.setBackground(new Color(gen.nextInt(255) + 1, gen.nextInt(255) + 1,gen.nextInt(255) + 1));
+               frame.setBounds(gen.nextInt(900), gen.nextInt(1440), gen.nextInt(100), gen.nextInt(100));
+               frame.setVisible(true);
+               frames.add(frame);
+               
+               /*
+               for(int i = 0; i > frames.size(); i++)
+               {
+                    frames.get(i).setLocation(gen.nextInt(900), gen.nextInt(1440));
+               }
+               */
+               
+          }
+     }
+}

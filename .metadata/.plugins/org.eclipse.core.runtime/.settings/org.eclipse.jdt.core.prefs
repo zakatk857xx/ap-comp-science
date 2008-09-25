@@ -1,4 +1,4 @@
-#Mon Sep 15 08:12:59 EDT 2008
+#Thu Sep 25 10:00:05 EDT 2008
 org.eclipse.jdt.core.formatter.brace_position_for_enum_constant=next_line
 org.eclipse.jdt.core.formatter.insert_space_before_opening_paren_in_method_invocation=do not insert
 org.eclipse.jdt.core.formatter.format_guardian_clause_on_one_line=false
@@ -106,6 +106,7 @@ org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_cases=true
 org.eclipse.jdt.core.formatter.insert_space_after_comma_in_allocation_expression=insert
 org.eclipse.jdt.core.formatter.alignment_for_compact_if=16
 org.eclipse.jdt.core.formatter.insert_space_after_and_in_type_parameter=insert
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/Applications/eclipse/plugins/org.junit_3.8.2.v200706111738
 org.eclipse.jdt.core.formatter.insert_space_before_opening_paren_in_if=insert
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.formatter.blank_lines_before_member_type=1

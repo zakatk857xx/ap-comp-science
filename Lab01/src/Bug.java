@@ -1,3 +1,9 @@
+/**
+ * Bug class
+ * @author tzaki
+ * @version Sep 19, 2008
+ *
+ */
 public class Bug
 {
      private int xPos, yPos, direction;
@@ -6,6 +12,9 @@ public class Bug
                              SOUTH = 2,
                              WEST  = 3;                             
      
+     /**
+      * Creates a new general Bug at the origin facing north
+      */
      public Bug()
      {
           xPos = 0;
@@ -13,6 +22,12 @@ public class Bug
           direction = 0;
      }
      
+     /**
+      * Creates a new Bug with a specified initial
+      *   position facing north
+      * @param x the initial x-coordinate
+      * @param y the initial y-coordinate
+      */
      public Bug(int x, int y)
      {
           xPos = x;
@@ -20,13 +35,23 @@ public class Bug
           direction = NORTH;
      }
      
-     public Bug(int x, int y, int d)
+     /**
+      * Creates a new Bug with a specified initial
+      *   position and direction
+      * @param x   the initial x-coordinate
+      * @param y   the initial x-coordinate
+      * @param dir the initial direction the bug is facing
+      */
+     public Bug(int x, int y, int dir)
      {
           xPos = x;
           yPos = y;
-          direction = d;
+          direction = dir;
      }
      
+     /**
+      * Turns the Bug clockwise 90 degrees 
+      */
      public void turn()
      {
           if(direction < 3)
@@ -35,6 +60,9 @@ public class Bug
                direction = 0;
      }
      
+     /**
+      * Moves the Bug forward one unit in the direction of travel
+      */
      public void move()
      {
           switch(direction)
@@ -54,6 +82,10 @@ public class Bug
           }
      }
      
+     /**
+      * Checks the location of the Bug
+      * @return the coordinate location of the Bug in (x, y) form
+      */
      public String getPosition()
      {
           return new String("(" + xPos + ", " + yPos + ")");

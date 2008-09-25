@@ -1,4 +1,4 @@
-#Wed Sep 17 15:21:35 EDT 2008
+#Fri Sep 19 14:48:27 EDT 2008
 sourceHoverBackgroundColor=255,255,225
 org.eclipse.jdt.ui.overrideannotation=true
 spelling_locale_initialized=true
@@ -13,7 +13,7 @@ tabWidthPropagated=true
 org.eclipse.jdt.ui.exception.name=e
 org.eclipse.jdt.ui.editor.tab.width=
 fontPropagated=true
-org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates><template autoinsert\="false" context\="typecomment_context" deleted\="false" description\="Comment for created types" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.typecomment" name\="typecomment">/**\n * @author ${user}\n * @version ${date}\n *\n * ${tags}\n */</template></templates>
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 proposalOrderMigrated=true
 org.eclipse.jdt.ui.formatterprofiles.version=11

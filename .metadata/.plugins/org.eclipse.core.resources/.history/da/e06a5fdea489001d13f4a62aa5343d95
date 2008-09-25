@@ -1,0 +1,31 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.event.*;
+import java.util.*;
+
+public class Board extends JComponent
+{     
+     public void paintComponent(Graphics g)
+     {          
+          Graphics2D g2 = (Graphics2D) g;
+          
+          g2.setColor(new Color(166, 105, 0));          
+          for(int i = 0; i < 9; i++)
+          {               
+               for(int j = 0; j < 9; j++)
+               {
+                    g2.fill(new Rectangle2D.Double(30 * j, 30 * i, 30, 30));
+               }//end for               
+          }//end for 
+          
+          g2.setColor(Color.BLACK);
+          for(int i = 0; i < 9; i++)
+          {               
+               for(int j = 0; j < 9; j++)
+               {
+                    g2.draw(new Rectangle2D.Double(30 * j, 30 * i, 30, 30));
+               }//end for               
+          }//end for 
+     }     
+}//Board class

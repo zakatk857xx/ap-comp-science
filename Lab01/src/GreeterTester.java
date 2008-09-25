@@ -1,3 +1,9 @@
+/**
+ * Tester class for the Greeter class
+ * @author tzaki
+ * @version Sep 19, 2008
+ *
+ */
 public class GreeterTester
 {
      public static void main(String beans[])

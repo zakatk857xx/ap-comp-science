@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="30" version="2.0">
 <workbenchAdvisor/>
-<window height="875" width="1439" x="3" y="22">
+<window height="875" width="1439" x="2" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,6 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="156" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,37 +33,52 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Car.java" partName="Car.java" path="/Users/tzaki/java/Lab01/src/Car.java" title="Car.java" tooltip="Lab01/src/Car.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab01/src/Car.java"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Windows.java" partName="Windows.java" path="/Users/tzaki/java/EpicFail/src/Windows.java" title="Windows.java" tooltip="EpicFail/src/Windows.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EpicFail/src/Windows.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1226"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SidePanel.java" partName="SidePanel.java" path="/Users/tzaki/java/Quoridor/src/SidePanel.java" title="SidePanel.java" tooltip="Quoridor/src/SidePanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/SidePanel.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="11460"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuoridorG.java" partName="QuoridorG.java" path="/Users/tzaki/java/Quoridor/src/QuoridorG.java" title="QuoridorG.java" tooltip="Quoridor/src/QuoridorG.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/QuoridorG.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="3793"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorComponent.java" partName="ColorComponent.java" path="/Users/tzaki/java/Quoridor/src/ColorComponent.java" title="ColorComponent.java" tooltip="Quoridor/src/ColorComponent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/ColorComponent.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarTester.java" partName="CarTester.java" path="/Users/tzaki/java/Lab01/src/CarTester.java" title="CarTester.java" tooltip="Lab01/src/CarTester.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab01/src/CarTester.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BoardComponent.java" partName="BoardComponent.java" path="/Users/tzaki/java/Quoridor/src/BoardComponent.java" title="BoardComponent.java" tooltip="Quoridor/src/BoardComponent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/BoardComponent.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="21"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BugTester.java" partName="BugTester.java" path="/Users/tzaki/java/Lab01/src/BugTester.java" title="BugTester.java" tooltip="Lab01/src/BugTester.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab01/src/BugTester.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" partName="Board.java" path="/Users/tzaki/java/Quoridor/src/Board.java" title="Board.java" tooltip="Quoridor/src/Board.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/Board.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="3649"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Greeter.java" partName="Greeter.java" path="/Users/tzaki/java/Lab01/src/Greeter.java" title="Greeter.java" tooltip="Lab01/src/Greeter.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab01/src/Greeter.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Quoridor.java" partName="Quoridor.java" path="/Users/tzaki/java/Quoridor/src/Quoridor.java" title="Quoridor.java" tooltip="Quoridor/src/Quoridor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Quoridor/src/Quoridor.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="149"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GreeterTester.java" partName="GreeterTester.java" path="/Users/tzaki/java/Lab01/src/GreeterTester.java" title="GreeterTester.java" tooltip="Lab01/src/GreeterTester.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab01/src/GreeterTester.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="543"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="math.java" partName="math.java" path="/Users/tzaki/java/Misc/src/math.java" title="math.java" tooltip="Misc/src/math.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Misc/src/math.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="197"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
@@ -101,7 +117,7 @@
 </viewState>
 </view>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
-<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" isWindowWorkingSet="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=Lab01/src&lt;{Bug.java[Bug" isWindowWorkingSet="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=Lab01/src&lt;{Bug.java[Bug" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState columnWidth0="379" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
@@ -168,14 +184,14 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -200,24 +216,10 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6131479" ratioLeft="485" ratioRight="306" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@faddbe" ratio="0.7493438" ratioLeft="571" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.views.ProgressView" ratio="0.6131479" ratioLeft="485" ratioRight="306" relationship="4" relative="org.eclipse.ui.editorss"/>
+<info part="org.eclipse.search.ui.views.SearchView" ratio="0.4995752" ratioLeft="588" ratioRight="589" relationship="2" relative="org.eclipse.ui.views.ProgressView"/>
+<info part="org.eclipse.ui.views.BookmarkView" ratio="0.4995752" ratioLeft="588" ratioRight="589" relationship="2" relative="org.eclipse.ui.views.ProgressView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@faddbe" ratio="0.8172502" ratioLeft="957" ratioRight="214" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
@@ -234,6 +236,20 @@
 </presentation>
 </folder>
 </info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9a22ed" ratio="0.50316054" ratioLeft="398" ratioRight="393" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
 </mainWindow>
 </layout>
 </perspective>
@@ -241,170 +257,126 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Car.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Bug.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/BugTester.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Greeter.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/GreeterTester.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Review Work/src/ConnectFour.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Car.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/CarTester.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/BugTester.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Greeter.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/GreeterTester.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Misc/src/Area.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Greeter.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab01/src/Car.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EpicFail/src/Windows.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/SidePanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/QuoridorG.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/ColorComponent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/BoardComponent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/Board.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Quoridor/src/Quoridor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Misc/src/math.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/EpicFail/src/Windows.java"/>
 </editors>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="204" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1083" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="520" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1505" y="0"/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="297" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1242" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="520" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1330" y="13"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="292" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1263" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="219" y="303"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1379" y="0"/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="344" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1279" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="319" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1379" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="520" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1425" y="16"/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="344" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1487" y="16"/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1505" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="543" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1603" y="0"/>
 </item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="47" y="0"/>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1667" y="0"/>
 </item>
-<item historyLabel="Car.java" index="0">
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1261" y="0"/>
+</item>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1360" y="0"/>
+</item>
+<item historyLabel="Windows.java" index="0">
+<position info="not_deleted" x="1181" y="99"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="828" y="0"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="128" y="9"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
 <position/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="543" y="0"/>
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="832" y="0"/>
 </item>
-<item historyLabel="Car.java" index="0">
+<item historyLabel="ColorComponent.java" index="3">
 <position/>
 </item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="528" y="0"/>
-</item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="129" y="34"/>
-</item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="528" y="0"/>
-</item>
-<item historyLabel="Car.java" index="0">
+<item historyLabel="BoardComponent.java" index="4">
 <position/>
 </item>
-<item historyLabel="Car.java" index="0">
+<item historyLabel="Board.java" index="5">
+<position info="not_deleted" x="3649" y="0"/>
+</item>
+<item historyLabel="Quoridor.java" index="6">
+<position info="not_deleted" x="149" y="0"/>
+</item>
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="Windows.java" index="0">
 <position/>
 </item>
-<item historyLabel="Car.java" index="0">
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="3793" y="0"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="12478" y="0"/>
+</item>
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="3793" y="0"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="12478" y="0"/>
+</item>
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="3793" y="0"/>
+</item>
+<item historyLabel="SidePanel.java" index="1">
+<position info="not_deleted" x="11460" y="0"/>
+</item>
+<item historyLabel="QuoridorG.java" index="2">
+<position info="not_deleted" x="3793" y="0"/>
+</item>
+<item historyLabel="Windows.java" index="0">
 <position/>
 </item>
-<item historyLabel="Car.java" index="0">
-<position/>
+<item historyLabel="math.java" index="7">
+<position info="not_deleted" x="52" y="0"/>
 </item>
-<item historyLabel="GreeterTester.java" index="4">
-<position info="not_deleted" x="129" y="34"/>
-</item>
-<item historyLabel="Greeter.java" index="3">
-<position info="not_deleted" x="528" y="0"/>
-</item>
-<item historyLabel="BugTester.java" index="2">
-<position/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="58" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="172" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="256" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="311" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="442" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position info="not_deleted" x="414" y="0"/>
-</item>
-<item historyLabel="Bug.java" index="1">
-<position/>
-</item>
-<item historyLabel="ConnectFour.java" index="5">
-<position info="not_deleted" x="1375" y="0"/>
-</item>
-<item historyLabel="Car.java" index="6">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="CarTester.java" index="7">
-<position/>
-</item>
-<item historyLabel="BugTester.java" index="8">
-<position/>
-</item>
-<item historyLabel="Greeter.java" index="9">
-<position info="not_deleted" x="528" y="0"/>
-</item>
-<item historyLabel="GreeterTester.java" index="10">
-<position info="not_deleted" x="129" y="34"/>
-</item>
-<item historyLabel="ConnectFour.java" index="5">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="Area.java" index="11">
-<position info="not_deleted" x="342" y="0"/>
-</item>
-<item historyLabel="Area.java" index="11">
-<position info="not_deleted" x="399" y="4"/>
-</item>
-<item historyLabel="ConnectFour.java" index="5">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="GreeterTester.java" index="10">
-<position info="not_deleted" x="129" y="34"/>
-</item>
-<item historyLabel="Greeter.java" index="12">
-<position info="not_deleted" x="528" y="0"/>
-</item>
-<item historyLabel="Car.java" index="13">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="Greeter.java" index="12">
-<position/>
-</item>
-<item active="true" historyLabel="Car.java" index="13">
-<position/>
+<item active="true" historyLabel="Windows.java" index="8">
+<position info="not_deleted" x="385" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -423,50 +395,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="math.java" tooltip="Misc/src/math.java">
+<persistable path="/Misc/src/math.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Quoridor.java" tooltip="Quoridor/src/Quoridor.java">
+<persistable path="/Quoridor/src/Quoridor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="Quoridor/src/Board.java">
+<persistable path="/Quoridor/src/Board.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BoardComponent.java" tooltip="Quoridor/src/BoardComponent.java">
+<persistable path="/Quoridor/src/BoardComponent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorComponent.java" tooltip="Quoridor/src/ColorComponent.java">
+<persistable path="/Quoridor/src/ColorComponent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuoridorG.java" tooltip="Quoridor/src/QuoridorG.java">
+<persistable path="/Quoridor/src/QuoridorG.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SidePanel.java" tooltip="Quoridor/src/SidePanel.java">
+<persistable path="/Quoridor/src/SidePanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Windows.java" tooltip="EpicFail/src/Windows.java">
+<persistable path="/EpicFail/src/Windows.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Quoridor.java" tooltip="QuoridorProject/src/Quoridor.java">
+<persistable path="/QuoridorProject/src/Quoridor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="allclasses-noframe.html" tooltip="Lab01/doc/allclasses-noframe.html">
+<persistable path="/Lab01/doc/allclasses-noframe.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Bug.html" tooltip="Lab01/doc/Bug.html">
+<persistable path="/Lab01/doc/Bug.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangletest.java" tooltip="Misc/src/Rectangletest.java">
+<persistable path="/Misc/src/Rectangletest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bug.java" tooltip="Lab01/src/Bug.java">
+<persistable path="/Lab01/src/Bug.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Area.java" tooltip="Misc/src/Area.java">
 <persistable path="/Misc/src/Area.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GreeterTester.java" tooltip="Lab01/src/GreeterTester.java">
 <persistable path="/Lab01/src/GreeterTester.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Greeter.java" tooltip="Lab01/src/Greeter.java">
-<persistable path="/Lab01/src/Greeter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BugTester.java" tooltip="Lab01/src/BugTester.java">
-<persistable path="/Lab01/src/BugTester.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bug.java" tooltip="Lab01/src/Bug.java">
-<persistable path="/Lab01/src/Bug.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CarTester.java" tooltip="Lab01/src/CarTester.java">
-<persistable path="/Lab01/src/CarTester.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Car.java" tooltip="Lab01/src/Car.java">
-<persistable path="/Lab01/src/Car.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Area.java" tooltip="Review Work/src/Area.java">
-<persistable path="/Review Work/src/Area.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectFour.java" tooltip="Review Work/src/ConnectFour.java">
-<persistable path="/Review Work/src/ConnectFour.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="Review Work/src/HelloWorld.java">
-<persistable path="/Review Work/src/HelloWorld.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankAcountTester.java" tooltip="Review Work/src/BankAcountTester.java">
-<persistable path="/Review Work/src/BankAcountTester.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankAccount.java" tooltip="Review Work/src/BankAccount.java">
-<persistable path="/Review Work/src/BankAccount.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RectangleTest.java" tooltip="Review Work/src/RectangleTest.java">
-<persistable path="/Review Work/src/RectangleTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="Review Work/src/Board.java">
-<persistable path="/Review Work/src/Board.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="Beginning stuff/src/HelloWorld.java">
-<persistable path="/Beginning stuff/src/HelloWorld.java"/>
 </file>
 </mruList>
 </workbench>

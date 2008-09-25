@@ -1,0 +1,8 @@
+public class Rectangletest
+{
+     public static void main(String beans[])
+     {
+          double f = 4.35;          
+          System.out.println(100 * f);
+     }
+}

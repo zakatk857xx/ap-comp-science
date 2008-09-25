@@ -1,3 +1,9 @@
+/**
+ * Tester class for the Car class
+ * @author tzaki
+ * @version Sep 19, 2008
+ *
+ */
 public class CarTester
 {
      public static void main(String beans[])

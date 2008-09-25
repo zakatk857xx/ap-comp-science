@@ -1,4 +1,9 @@
-
+/**
+ * Tester class for the Bug class
+ * @author tzaki
+ * @version Sep 19, 2008
+ *
+ */
 public class BugTester
 {
      public static void main(String beans[])

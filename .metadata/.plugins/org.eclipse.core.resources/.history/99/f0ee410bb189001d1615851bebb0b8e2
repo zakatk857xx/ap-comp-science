@@ -1,0 +1,69 @@
+import javax.swing.*;
+import java.awt.Color;
+import java.util.*;
+
+public class Windows
+{
+     public static void main(String [] argz)
+     {
+          Random gen = new Random();
+          
+          ArrayList<JFrame> frames1 = new ArrayList<JFrame>();
+          ArrayList<JFrame> frames2 = new ArrayList<JFrame>();
+          
+          final int RESOLUTION_X = 1440;
+          final int RESOLUTION_Y = 900;
+          final int FRAME_DIMENSIONS = 75;
+          final int COLOR_RANGE = 255;
+          final int MOVE_INCREMENT = 25;
+          
+          
+          while(true) 
+          {
+               JFrame frame1 = new JFrame();
+               JFrame frame2 = new JFrame();
+               
+               frame1.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);        
+               frame2.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+               frame1.setUndecorated(true);
+               frame2.setUndecorated(true);
+               frame1.setBackground(new Color(gen.nextInt(COLOR_RANGE) + 1, gen.nextInt(COLOR_RANGE) + 1,gen.nextInt(COLOR_RANGE) + 1));
+               frame2.setBackground(new Color(gen.nextInt(COLOR_RANGE) + 1, gen.nextInt(COLOR_RANGE) + 1,gen.nextInt(COLOR_RANGE) + 1));
+               frame1.setBounds(0, RESOLUTION_Y, FRAME_DIMENSIONS, FRAME_DIMENSIONS);
+               frame2.setBounds(RESOLUTION_X, RESOLUTION_Y, FRAME_DIMENSIONS, FRAME_DIMENSIONS);
+               frame1.setAlwaysOnTop(true);
+               frame2.setAlwaysOnTop(true);
+               frame1.setVisible(true);
+               frame2.setVisible(true);
+               frames1.add(frame1);               
+               frames2.add(frame2);
+               
+               for(int i = 0; i < frames1.size(); i++)
+               {
+                    frames1.get(i).setBounds((int)frames1.get(i).getBounds().getX() + MOVE_INCREMENT,
+                                            (int)frames1.get(i).getBounds().getY() + MOVE_INCREMENT,
+                                            FRAME_DIMENSIONS,
+                                            FRAME_DIMENSIONS);
+                    if(frames1.get(i).getX() > RESOLUTION_X && frames1.get(i).getY() > RESOLUTION_Y)
+                    {
+                         frames1.remove(i);
+                    }
+               }
+               
+               for(int i = 0; i < frames2.size(); i++)
+               {
+                    frames2.get(i).setBounds((int)frames2.get(i).getBounds().getX() - MOVE_INCREMENT,
+                                            (int)frames2.get(i).getBounds().getY() + MOVE_INCREMENT,
+                                            FRAME_DIMENSIONS,
+                                            FRAME_DIMENSIONS);
+                    if(frames2.get(i).getX() < 0 && frames2.get(i).getY() > RESOLUTION_Y)
+                    {
+                         frames2.remove(i);
+                    }
+               }
+               
+               
+               
+          }
+     }
+}
