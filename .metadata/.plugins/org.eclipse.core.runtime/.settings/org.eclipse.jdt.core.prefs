@@ -1,4 +1,4 @@
-#Thu Sep 25 10:00:05 EDT 2008
+#Fri Sep 26 09:37:38 EDT 2008
 org.eclipse.jdt.core.formatter.brace_position_for_enum_constant=next_line
 org.eclipse.jdt.core.formatter.insert_space_before_opening_paren_in_method_invocation=do not insert
 org.eclipse.jdt.core.formatter.format_guardian_clause_on_one_line=false
@@ -80,6 +80,7 @@ org.eclipse.jdt.core.formatter.insert_space_after_opening_bracket_in_array_refer
 org.eclipse.jdt.core.formatter.insert_space_after_comma_in_for_increments=insert
 org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration=16
 org.eclipse.jdt.core.formatter.insert_space_after_opening_paren_in_switch=do not insert
+org.eclipse.jdt.core.classpathVariable.Drum=/Users/tzaki/java/drumstar/WORKING GAME CODE/\:Library\:Java\:Extensions
 org.eclipse.jdt.core.formatter.use_tabs_only_for_leading_indentations=false
 org.eclipse.jdt.core.formatter.insert_space_before_comma_in_enum_constant_arguments=do not insert
 org.eclipse.jdt.core.formatter.alignment_for_superinterfaces_in_type_declaration=16

@@ -567,3 +567,129 @@ Command-line arguments:  -os macosx -ws carbon -arch x86 -keyring /Users/tzaki/.
 
 !ENTRY org.eclipse.ui 4 4 2008-09-25 09:54:44.240
 !MESSAGE Invalid preference page path: Cache
+!SESSION 2008-09-26 09:29:42.965 -----------------------------------------------
+eclipse.buildId=I20070625-1500
+java.version=1.5.0_13
+java.vendor=Apple Computer, Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -keyring /Users/tzaki/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -keyring /Users/tzaki/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2008-09-26 09:33:18.687
+!MESSAGE Invalid preference page path: Cache
+!SESSION 2008-09-29 09:56:09.671 -----------------------------------------------
+eclipse.buildId=I20070625-1500
+java.version=1.5.0_13
+java.vendor=Apple Computer, Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -keyring /Users/tzaki/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -keyring /Users/tzaki/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2008-09-29 09:59:32.405
+!MESSAGE Invalid preference page path: Cache
+!SESSION 2008-09-30 09:21:51.034 -----------------------------------------------
+eclipse.buildId=I20070625-1500
+java.version=1.5.0_13
+java.vendor=Apple Computer, Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -keyring /Users/tzaki/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -keyring /Users/tzaki/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.jdt.core 4 4 2008-09-30 09:36:56.323
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:298)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:276)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileBytes(AbstractImageBuilder.java:811)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:791)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:186)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:398)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:362)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:173)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:299)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:59)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:269)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:285)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2008-09-30 09:36:56.324
+!MESSAGE A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2008-09-30 09:41:19.636
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:298)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:276)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileBytes(AbstractImageBuilder.java:811)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:791)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:186)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:398)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:362)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:173)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:299)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:59)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:269)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:285)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2008-09-30 09:41:19.637
+!MESSAGE A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2008-09-30 09:43:39.851
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:298)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:276)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileBytes(AbstractImageBuilder.java:811)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:791)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:186)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:398)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:362)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:173)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:299)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:59)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:269)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:285)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2008-09-30 09:43:39.852
+!MESSAGE A resource exists with a different case: '/GridWorldProjects/bin/boxBug/circleBug.class'.

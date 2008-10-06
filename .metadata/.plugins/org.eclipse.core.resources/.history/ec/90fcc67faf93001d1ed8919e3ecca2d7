@@ -1,0 +1,39 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 6, 2008
+ *
+ * use a nested for loop to create he folowing output:
+ * []
+ * [][]
+ * [][][]
+ * [][][][]
+ * ...
+ *
+ */
+
+import java.util.Scanner;
+
+public class TrianglePrinter
+{
+
+     public static void main(String[] args)
+     {
+          Scanner in = new Scanner(System.in);
+
+          int sideLength = 0;
+
+          System.out.println("How tall?");
+          sideLength = in.nextInt();
+          
+          for(int rows = 0; rows <= sideLength; rows++)
+          {               
+               for(int columns = 0; columns < rows; columns++)
+               {
+                    System.out.print("[]");
+               }
+               System.out.println();
+          }
+
+     }
+}
