@@ -1,0 +1,26 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 21, 2008
+ *
+ */
+
+import java.util.*;
+
+public class Monopoly
+{
+     public static void main(String beans[])
+     {
+          Scanner in = new Scanner(System.in);
+          
+          Player player1 = new Player(in.nextLine(), 0);
+          
+          do
+          {
+               
+          }while(true);
+          
+          
+     }
+
+}

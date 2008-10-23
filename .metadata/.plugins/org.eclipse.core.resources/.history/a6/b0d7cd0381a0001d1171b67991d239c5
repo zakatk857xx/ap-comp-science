@@ -1,0 +1,57 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 21, 2008
+ *
+ */
+
+import java.util.*;
+
+public class Monopoly
+{
+     public static void main(String beans[])
+     {
+          Scanner in = new Scanner(System.in);
+          
+          ArrayList<Player> players = new ArrayList<Player>();          
+          Player player0 = new Player("Player 1", 0);
+          
+          players.add(player0);
+          
+          welcome();
+          setPlayerNames(players, in);
+          
+          
+          Property boardwalk = new Property("The Boardwalk", 0, 0, "Blue",
+                    1000, 250, 500, 39);
+          
+          System.out.println(player0 + "\n\n" + boardwalk);
+          
+          do
+          {
+               
+               
+               
+          }while(true);
+          
+          
+     }
+     
+     public static void welcome()
+     {
+          System.out.println("Welcome to Monoploy");
+     }
+     
+     public static void setPlayerNames(ArrayList<Player> players, Scanner in)
+     {
+          for(Player p: players)
+          {
+               System.out.print("Enter a namr for " + p.getName() + ": ");
+               p.setName(in.nextLine());
+          }
+     }
+
+}
+
+
+

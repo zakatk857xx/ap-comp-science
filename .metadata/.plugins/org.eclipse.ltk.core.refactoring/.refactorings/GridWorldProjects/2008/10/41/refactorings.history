@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to 'GridWorldProjects/src/boxBug'&#10;- Original project: 'GridWorldProjects'&#10;- Destination element: 'GridWorldProjects/src/boxBug'&#10;- Original element: 'boxBug.SpiralBugRunner.java'" description="Copy compilation unit" destination="/src&lt;boxBug" element1="/src&lt;boxBug{SpiralBugRunner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="/src&lt;boxBug{SpiralBugRunner.java&#9;true&#9;true&#9;AllBugRunner.java" policy="org.eclipse.jdt.ui.copyResources" stamp="1223468076572" units="1" version="1.0"/>
+</session>

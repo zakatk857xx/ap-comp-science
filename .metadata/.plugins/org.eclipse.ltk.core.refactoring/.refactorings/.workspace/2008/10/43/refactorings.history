@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project 'Monopoly' to 'Monopoly_v1'&#10;- Original element: 'Monopoly'&#10;- Update references to refactored element" description="Rename Java project 'Monopoly'" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Monopoly" name="Monopoly_v1" references="true" stamp="1224595970576" version="1.0"/>
+<refactoring comment="Rename Java project 'Lab4' to 'Lab04'&#10;- Original element: 'Lab4'&#10;- Update references to refactored element" description="Rename Java project 'Lab4'" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Lab4" name="Lab04" references="true" stamp="1224681907503" version="1.0"/>
+</session>

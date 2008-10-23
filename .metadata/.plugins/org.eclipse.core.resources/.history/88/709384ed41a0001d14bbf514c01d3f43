@@ -1,0 +1,145 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 21, 2008
+ *
+ */
+public class Player
+{     
+     /*
+     public static final int WHEELBARROW      = 0;
+     public static final int BATTLESHIP       = 1;
+     public static final int SACK_OF_MONEY    = 2;
+     public static final int HORSE_AND_RIDER  = 3;
+     public static final int CAR              = 4;
+     public static final int TRAIN            = 5;
+     public static final int THIMBLE          = 6;
+     public static final int CANNON           = 5;
+     public static final int BOOT             = 8;
+     public static final int SCOTTISH_TERRIER = 9;
+     public static final int IRON             = 10;
+     public static final int TOP_HAT          = 11;
+     */
+     
+     private String name;
+     private int whichPiece;
+     private int space;
+     private int money;
+     private int doubles;
+     private boolean inJail;
+     
+     public Player() 
+     {
+          name       = new String("_nameless_");
+          whichPiece = 0;
+          space      = 0;
+          money      = 1500;
+          doubles    = 0;
+          inJail     = false;
+          
+     }
+     
+     public Player(String n)
+     {
+          name       = n;
+          whichPiece = 0;
+          space      = 0;
+          money      = 1500;
+          doubles    = 0;
+          inJail     = false;          
+     }
+     
+     public Player(String n, int piece)
+     {
+          name       = n;
+          whichPiece = piece;
+          space      = 0;
+          money      = 1500;
+          doubles    = 0;
+          inJail     = false;
+     }
+     
+     public String getName()
+     {
+          return name;
+     }
+     
+     public void setName(String n)
+     {
+          name = n;
+     }
+     
+     public int getSpace()
+     {
+          return space;
+     }
+     
+     public void setSpace(int location)
+     {
+          space = location;
+     }
+     
+     public void movePiece()
+     {
+          space++;
+     }
+     
+     public void addDoubles()
+     {
+          doubles++;
+     }
+     
+     public int getDoubles()
+     {
+          return doubles;
+     }
+     
+     public void resetDoubles()
+     {
+          doubles = 0;
+     }
+     
+     public boolean isInJail()
+     {
+          return inJail;
+     }
+     
+     public void setInJail(boolean status)
+     {
+          inJail = status;
+     }
+     
+     public int getPiece()
+     {
+          return whichPiece;
+     }
+     
+     public void setPiece(int piece)
+     {
+          whichPiece = piece;
+     }
+     
+     public int getMoney()
+     {
+          return money;
+     }
+     
+     public void setMoney(int value)
+     {
+          money += value;
+     }
+     
+     public String toString()
+     {
+          return "PROPERTY: <" + name + ">\n" + 
+          " (*)Piece    = "  + piece   + "\n" + 
+          " (*)Money    =$ " + money   + "\n" + 
+          " (*)Doubles  = "  + doubles + "\n" + 
+          " (*)In jail? = "  + inJail  + "\n" + 
+          " (*)Space    = "  + space;
+     }
+     
+     
+     
+
+}

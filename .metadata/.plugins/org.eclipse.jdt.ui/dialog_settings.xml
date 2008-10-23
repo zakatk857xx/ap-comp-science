@@ -7,8 +7,19 @@
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="3"/>
 	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="2"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="patterns" value=""/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="rootMode" value="1"/>

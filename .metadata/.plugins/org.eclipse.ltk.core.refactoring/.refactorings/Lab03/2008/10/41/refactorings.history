@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename type 'exercise_2.PrimeNumberGenerator' to 'PrimeNumber'&#10;- Original project: 'Lab03'&#10;- Original element: 'exercise_2.PrimeNumberGenerator'&#10;- Renamed element: 'exercise_2.PrimeNumber'&#10;- Update references to refactored element&#10;- Update textual occurrences in comments and strings" description="Rename type 'PrimeNumberGenerator'" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exercise_2{PrimeNumberGenerator.java[PrimeNumberGenerator" matchStrategy="1" name="PrimeNumber" qualified="false" references="true" similarDeclarations="false" stamp="1223492506727" textual="false" version="1.0"/>
+</session>

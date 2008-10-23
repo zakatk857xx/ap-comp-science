@@ -1,0 +1,41 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 22, 2008
+ *
+ */
+
+import java.util.*;
+
+public class RandomInts2
+{
+     public static void main(String beans[])
+     {
+          Random gen = new Random();
+
+          int[] nums = new int[10];
+          int temp = 0;
+          boolean isUnique;
+
+          for (int i = 0; i < 10; i++)
+          {
+               isUnique = true;
+               do
+               {
+                    temp = gen.nextInt(100) + 1;
+                    
+                    for(int j = 0; j < i; j++)
+                         if(temp == nums[j])
+                              isUnique = false;
+                    
+               }while(!isUnique);
+               
+               nums[i] = temp;
+          }
+               
+
+          for (int i = 0; i < 10; i++)
+               System.out.print(nums[i] + " ");
+
+     }
+}

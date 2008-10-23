@@ -1,5 +1,9 @@
-#Wed Sep 10 10:01:52 EDT 2008
+#Thu Oct 09 09:40:57 EDT 2008
+org.eclipse.debug.ui.consoleBackground=222,222,222
 eclipse.preferences.version=1
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8"?>\n<launchPerspectives/>\n
-org.eclipse.debug.ui.user_view_bindings=<?xml version\="1.0" encoding\="UTF-8"?>\n<viewBindings>\n<view id\="org.eclipse.ui.console.ConsoleView">\n<perspective id\="org.eclipse.jdt.ui.JavaPerspective" userAction\="opened"/>\n</view>\n</viewBindings>\n
+Console.highWaterMark=88000
+org.eclipse.debug.ui.inColor=67,107,200
+DEBUG.consoleOpenOnErr=false
 org.eclipse.debug.ui.save_dirty_editors_before_launch=always
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.user_view_bindings=<?xml version\="1.0" encoding\="UTF-8"?>\n<viewBindings>\n<view id\="org.eclipse.debug.ui.DebugView">\n<perspective id\="org.eclipse.jdt.ui.JavaPerspective" userAction\="opened"/>\n</view>\n<view id\="org.eclipse.ui.console.ConsoleView">\n<perspective id\="org.eclipse.jdt.ui.JavaPerspective" userAction\="opened"/>\n</view>\n</viewBindings>\n

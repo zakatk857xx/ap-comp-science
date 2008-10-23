@@ -1,0 +1,35 @@
+/**
+ * 
+ * @author tzaki
+ * @version Oct 21, 2008
+ *
+ */
+
+import java.util.*;
+
+public class Monopoly
+{
+     public static void main(String beans[])
+     {
+          Scanner in = new Scanner(System.in);
+          
+          System.out.print(welcome() + "\n Enter Player 1's name:");
+          
+          Player player1 = new Player(in.nextLine(), 0);
+          
+          System.out.println(player1);
+          
+          do
+          {
+               
+          }while(true);
+          
+          
+     }
+     
+     public static String welcome()
+     {
+          return "Welcome to Monoploy";
+     }
+
+}
