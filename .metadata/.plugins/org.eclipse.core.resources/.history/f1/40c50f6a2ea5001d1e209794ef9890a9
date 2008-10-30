@@ -1,0 +1,79 @@
+/**
+ * A Die is simply an extended version of a 
+ *   Random object with a specified limit that
+ *   can be used to simulate rolling a die.
+ * 
+ * @author tzaki
+ *
+ */
+
+import java.util.Random;
+
+public class Die
+{
+     
+     private int numSides;
+     private Random gen;
+     
+     /**
+      * Creates a standard Die object with 6 sides
+      */
+     public Die() 
+     {
+          numSides = 6;
+          gen = new Random();
+     }
+     
+     /**
+      * Creates a Die object with a specified number of sides
+      * 
+      * @param n the number of sides on the die
+      */
+     public Die(int n)
+     {
+          numSides = n;
+          gen = new Random();          
+     }
+     
+     /**
+      * Gets the number of sides of the Die
+      * 
+      * @return the number of sides
+      */
+     public int getNumSides()
+     {
+          return numSides;
+     }
+     
+     /**
+      * Changes the number of sides of the Die
+      * 
+      * @param n the new number of sides
+      */
+     public void setNumSides(int n)
+     {
+          numSides = n;
+     }
+     
+     /**
+      * Simulates rolling the Die
+      * 
+      * @return the result of the roll
+      */
+     public int nextRoll()
+     {
+          return gen.nextInt(numSides) + 1;
+     }
+     
+     /**
+      * Used when printing out the die value
+      * 
+      * @return the current number of sides
+      */
+     public String toString()
+     {
+          return "Number of Sides" + numSides;
+     }
+
+}
+

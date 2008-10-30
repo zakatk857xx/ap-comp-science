@@ -1,0 +1,127 @@
+
+public class Property
+{
+     public static final int PROPERTY = 0;
+     public static final int UTILITY  = 1;
+     public static final int RAILROAD = 2;
+     public static final int JAIL     = 3;
+     
+     private String name;
+     private int owner;
+     private int type;
+     private String colorGroup;
+     private int cost;
+     private int rent;
+     private int mortgage;
+     private int space;
+     
+     public Property()
+     {
+          name       = "UNDEFINED";
+          owner      = 0;
+          type       = 0;
+          colorGroup = "NONE";
+          cost       = 0;
+          rent       = 0;
+          mortgage   = 0;
+          space      = 0;
+     }
+     
+     public Property(int s)
+     {
+          name       = "UNDEFINED";
+          owner      = 0;
+          type       = 0;
+          colorGroup = "NONE";
+          cost       = 0;
+          rent       = 0;
+          mortgage   = 0;
+          space      = s;
+     }
+     
+     public Property(String n, int s)
+     {
+          name       = n;
+          owner      = 0;
+          type       = 0;
+          colorGroup = "NONE";
+          cost       = 0;
+          rent       = 0;
+          mortgage   = 0;
+          space      = s;
+     }
+     
+     public Property(String n, int o, int t, String cG,
+               int c, int r, int m, int s)
+     {
+          name       = n;
+          owner      = o;
+          type       = t;
+          colorGroup = cG;
+          cost       = c;
+          rent       = r;
+          mortgage   = m;
+          space      = s;
+     }
+     
+     public String getName()
+     {
+          return name;
+     }
+     
+     public int getOwner()
+     {
+          return owner;
+     }
+     
+     public void setOwner(int o)
+     {
+          owner = o;
+     }
+     
+     public int getType()
+     {
+          return type;
+     }
+     
+     public String getColorGroup()
+     {
+          return colorGroup;
+     }
+     
+     public int getCost()
+     {
+          return cost;
+     }
+     
+     public int getRent()
+     {
+          return rent;
+     }
+     
+     public int getMortgage()
+     {
+          return mortgage;
+     }
+     
+     public int getSpace()
+     {
+          return space;
+     }
+     
+     public String toString()
+     {
+          return "PROPERTY: <" + name + ">\n" + 
+                 " (*)Owner       = "  + owner      + "\n" + 
+                 " (*)Type        = "  + type       + "\n" + 
+                 " (*)Color Group = "  + colorGroup + "\n" + 
+                 " (*)Cost        = $" + cost       + "\n" + 
+                 " (*)Rent        = $" + rent       + "\n" + 
+                 " (*)Mortgage    = $" + mortgage   + "\n" + 
+                 " (*)Space       = "  + space;
+     }
+     
+     
+}
+
+

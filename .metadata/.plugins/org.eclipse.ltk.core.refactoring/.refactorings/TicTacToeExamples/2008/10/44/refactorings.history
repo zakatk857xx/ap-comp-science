@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 element(s) from project 'TicTacToeExamples'&#10;- Original project: 'TicTacToeExamples'&#10;- Original elements:&#10;     TicTacToe.java~&#10;     TicTacToeTester.java~&#10;     TwoPlayers.java~" description="Delete elements" element1="src/tictactoe_dietzler/TwoPlayers.java~" element2="src/tictactoe_dietzler/TicTacToe.java~" element3="src/tictactoe_dietzler/TicTacToeTester.java~" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1225202259371" subPackages="false" version="1.0"/>
+</session>
