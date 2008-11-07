@@ -1,0 +1,16 @@
+<html>
+ 
+ <head>
+ 
+     <title>PONG!</title>
+ 
+ </head>
+ 
+ 
+ <body>
+ 
+     <applet code="PongApplet.java" width="400" height="500"> the code did not work! </applet>
+    
+ </body>
+ 
+</html>

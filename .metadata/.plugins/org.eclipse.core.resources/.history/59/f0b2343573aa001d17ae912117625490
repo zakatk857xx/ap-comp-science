@@ -1,0 +1,7 @@
+import javax.swing.JComponent;
+
+
+public class GridComponent extends JComponent
+{
+
+}

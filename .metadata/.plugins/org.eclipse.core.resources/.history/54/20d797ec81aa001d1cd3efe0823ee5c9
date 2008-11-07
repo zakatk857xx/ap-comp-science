@@ -1,0 +1,7 @@
+import java.applet.Applet;
+
+
+public class GameApplet extends Applet
+{
+
+}

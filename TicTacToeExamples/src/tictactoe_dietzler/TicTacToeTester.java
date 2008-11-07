@@ -48,7 +48,7 @@ class TicTacToeTester
                TwoPlayers players = new TwoPlayers ();
                
                // Set the welcome message on the board.
-               game.setWelcomeBoard ();
+               //game.setWelcomeBoard ();
                
                // Print the welcome board.
                System.out.println ("\n\n\n Welcome to\n" + game);

@@ -32,27 +32,17 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monopoly.java" partName="Monopoly.java" path="/Users/tzaki/java/Monopoly_v1/src/Monopoly.java" title="Monopoly.java" tooltip="Monopoly_v1/src/Monopoly.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Monopoly_v1/src/Monopoly.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="14959"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuDoKu.java" partName="SuDoKu.java" path="/Users/tzaki/java/SuDoKuProject/src/SuDoKu.java" title="SuDoKu.java" tooltip="SuDoKuProject/src/SuDoKu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SuDoKuProject/src/SuDoKu.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="165"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Property.java" partName="Property.java" path="/Users/tzaki/java/Monopoly_v1/src/Property.java" title="Property.java" tooltip="Monopoly_v1/src/Property.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Monopoly_v1/src/Property.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="491"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" partName="Player.java" path="/Users/tzaki/java/Monopoly_v1/src/Player.java" title="Player.java" tooltip="Monopoly_v1/src/Player.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Monopoly_v1/src/Player.java"/>
-<editorState selectionHPixel="0" selectionLength="34" selectionOffset="2298"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Die.java" partName="Die.java" path="/Users/tzaki/java/Monopoly_v1/src/Die.java" title="Die.java" tooltip="Monopoly_v1/src/Die.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Monopoly_v1/src/Die.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" partName="Board.java" path="/Users/tzaki/java/SuDoKuProject/src/Board.java" title="Board.java" tooltip="SuDoKuProject/src/Board.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SuDoKuProject/src/Board.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="678"/>
 </editor>
 </editors>
 <views>
@@ -109,7 +99,7 @@
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=Lab01/src&lt;{Bug.java[Bug" isWindowWorkingSet="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=Lab01/src&lt;{Bug.java[Bug" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="21" verticalPosition="18">
+<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="18">
 <columnOrder columnOrderIndex="0"/>
 <columnOrder columnOrderIndex="1"/>
 <columnOrder columnOrderIndex="2"/>
@@ -207,7 +197,7 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16025193" ratioLeft="229" ratioRight="1200" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.1896431" ratioLeft="271" ratioRight="1158" relationship="2" relative="left"/>
 <info part="org.eclipse.ui.views.ProgressView" ratio="0.6131479" ratioLeft="485" ratioRight="306" relationship="4" relative="org.eclipse.ui.editorss"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@c6cc1d" ratio="0.4995752" ratioLeft="588" ratioRight="589" relationship="2" relative="org.eclipse.ui.views.ProgressView">
 <folder appearance="2" expanded="2">
@@ -235,7 +225,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@4eb08e" ratio="0.5579345" ratioLeft="443" ratioRight="351" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4eb08e" ratio="0.6649874" ratioLeft="528" ratioRight="266" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -256,140 +246,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Property.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Die.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Monopoly.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Player.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Monopoly.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Die.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Property.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Monopoly.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Player.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Die.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Monopoly_v1/src/Monopoly.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SuDoKuProject/src/Board.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SuDoKuProject/src/SuDoKu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Class Work/src/topicsExamples/Objects/Purse/PurseTest.java"/>
 </editors>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="PurseTest.java" index="2">
+<position info="not_deleted" x="862" y="0"/>
 </item>
-<item historyLabel="Monopoly.java" index="2">
-<position info="not_deleted" x="267" y="0"/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1107" y="0"/>
 </item>
-<item historyLabel="Monopoly.java" index="2">
-<position info="not_deleted" x="135" y="0"/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Die.java" index="1">
-<position info="not_deleted" x="238" y="3"/>
-</item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
-</item>
-<item historyLabel="Monopoly.java" index="2">
-<position info="not_deleted" x="137" y="0"/>
-</item>
-<item historyLabel="Die.java" index="1">
-<position info="not_deleted" x="238" y="3"/>
-</item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
-</item>
-<item historyLabel="Monopoly.java" index="2">
-<position info="not_deleted" x="102" y="0"/>
-</item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
-</item>
-<item historyLabel="Die.java" index="1">
-<position info="not_deleted" x="111" y="0"/>
-</item>
-<item historyLabel="Property.java" index="0">
-<position info="not_deleted" x="123" y="0"/>
-</item>
-<item historyLabel="Monopoly.java" index="2">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
-</item>
-<item historyLabel="Die.java" index="1">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Property.java" index="0">
-<position info="not_deleted" x="350" y="0"/>
-</item>
-<item historyLabel="Player.java" index="3">
-<position info="not_deleted" x="9" y="6"/>
-</item>
-<item historyLabel="Monopoly.java" index="4">
+<item historyLabel="Board.java" index="0">
 <position/>
 </item>
-<item historyLabel="Die.java" index="5">
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="PurseTest.java" index="2">
+<position info="not_deleted" x="862" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
 <position/>
 </item>
-<item historyLabel="Property.java" index="6">
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
 <position/>
 </item>
-<item historyLabel="Monopoly.java" index="7">
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="PurseTest.java" index="2">
+<position info="not_deleted" x="862" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="636" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
 <position/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="811" y="0"/>
 </item>
-<item historyLabel="Die.java" index="9">
-<position/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Monopoly.java" index="7">
-<position/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="787" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="927" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position info="not_deleted" x="1524" y="0"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="924" y="0"/>
 </item>
-<item historyLabel="Die.java" index="9">
-<position/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position info="not_deleted" x="1524" y="0"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="924" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position info="not_deleted" x="782" y="0"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="581" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position info="not_deleted" x="1149" y="63"/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Die.java" index="9">
-<position/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1003" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position info="not_deleted" x="457" y="0"/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Monopoly.java" index="7">
-<position/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="579" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position info="not_deleted" x="2432" y="0"/>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
 </item>
-<item historyLabel="Player.java" index="8">
-<position info="not_deleted" x="2298" y="34"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="579" y="0"/>
 </item>
-<item historyLabel="Property.java" index="6">
-<position info="not_deleted" x="491" y="0"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1099" y="0"/>
 </item>
-<item active="true" historyLabel="Monopoly.java" index="10">
-<position info="not_deleted" x="10692" y="0"/>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1107" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1100" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="579" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1005" y="0"/>
+</item>
+<item historyLabel="SuDoKu.java" index="1">
+<position info="not_deleted" x="165" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1005" y="0"/>
+</item>
+<item historyLabel="PurseTest.java" index="2">
+<position info="not_deleted" x="862" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="1005" y="0"/>
+</item>
+<item historyLabel="Board.java" index="0">
+<position info="not_deleted" x="629" y="0"/>
+</item>
+<item active="true" historyLabel="Board.java" index="0">
+<position info="not_deleted" x="678" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -408,35 +417,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Property.html" tooltip="Monopoly_v1/doc/Property.html">
-<persistable path="/Monopoly_v1/doc/Property.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TicTacToeTester.java" tooltip="TicTacToeExamples/src/tictactoe_dietzler/TicTacToeTester.java">
+<persistable path="/TicTacToeExamples/src/tictactoe_dietzler/TicTacToeTester.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Player.html" tooltip="Monopoly_v1/doc/Player.html">
-<persistable path="/Monopoly_v1/doc/Player.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TicTacToe.java" tooltip="TicTacToeExamples/src/tictactoe_dietzler/TicTacToe.java">
+<persistable path="/TicTacToeExamples/src/tictactoe_dietzler/TicTacToe.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Die.html" tooltip="Monopoly_v1/doc/Die.html">
-<persistable path="/Monopoly_v1/doc/Die.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="SuDoKuProject/src/Board.java">
+<persistable path="/SuDoKuProject/src/Board.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Monopoly.html" tooltip="Monopoly_v1/doc/Monopoly.html">
-<persistable path="/Monopoly_v1/doc/Monopoly.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuDoKu.java" tooltip="SuDoKuProject/src/SuDoKu.java">
+<persistable path="/SuDoKuProject/src/SuDoKu.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Die.java" tooltip="Monopoly_v1/src/Die.java">
-<persistable path="/Monopoly_v1/src/Die.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Class Work/\/System\/Library\/Frameworks\/JavaVM.framework\/Versions\/1.5.0\/Classes\/classes.jar&lt;java.util(ArrayList.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="Monopoly_v1/src/Player.java">
-<persistable path="/Monopoly_v1/src/Player.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PurseTest.java" tooltip="Class Work/src/topicsExamples/Objects/Purse/PurseTest.java">
+<persistable path="/Class Work/src/topicsExamples/Objects/Purse/PurseTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Property.java" tooltip="Monopoly_v1/src/Property.java">
-<persistable path="/Monopoly_v1/src/Property.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Purse.java" tooltip="Class Work/src/topicsExamples/Objects/Purse/Purse.java">
+<persistable path="/Class Work/src/topicsExamples/Objects/Purse/Purse.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monopoly.java" tooltip="Monopoly_v1/src/Monopoly.java">
-<persistable path="/Monopoly_v1/src/Monopoly.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Coin.java" tooltip="Class Work/src/topicsExamples/Objects/Purse/Coin.java">
+<persistable path="/Class Work/src/topicsExamples/Objects/Purse/Coin.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Display.java" tooltip="GridWorldProjects/src/info/gridworld/gui/Display.java">
-<persistable path="/GridWorldProjects/src/info/gridworld/gui/Display.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="game.html" tooltip="ClearTheBoardGame/src/game.html">
+<persistable path="/ClearTheBoardGame/src/game.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="Player.html" tooltip="Monopoly_v1/doc/class-use/Player.html">
-<persistable path="/Monopoly_v1/doc/class-use/Player.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="ClearTheBoardGame/src/Game.java">
+<persistable path="/ClearTheBoardGame/src/Game.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="seizure.java" tooltip="Misc/src/seizure.java">
+<persistable path="/Misc/src/seizure.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameApplet.java" tooltip="ClearTheBoardGame/src/GameApplet.java">
+<persistable path="/ClearTheBoardGame/src/GameApplet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameOfLife_graphics.java" tooltip="TheGameOfLife2/src/testing/GameOfLife_graphics.java">
+<persistable path="/TheGameOfLife2/src/testing/GameOfLife_graphics.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Grid.java" tooltip="ClearTheBoardGame/src/Grid.java">
+<persistable path="/ClearTheBoardGame/src/Grid.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridComponent.java" tooltip="TheGameOfLife2/src/graphicsElements/GridComponent.java">
+<persistable path="/TheGameOfLife2/src/graphicsElements/GridComponent.java"/>
 </file>
 </mruList>
 </workbench>

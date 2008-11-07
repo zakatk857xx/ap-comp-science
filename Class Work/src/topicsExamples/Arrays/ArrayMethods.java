@@ -1,0 +1,41 @@
+package topicsExamples.Arrays;
+
+public class ArrayMethods
+{
+     
+     public static void main(String[] beans)
+     {
+          int   num   = 984325789;
+          int[] evens = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};  
+          
+          /*
+           * optional algorithm to fill evens with <numEvens> of evens
+           * 
+           *   final int numEvens = 10;
+           * 
+           *   int[] evens = new int[numEvens];
+           *   for(int i = 1; i <= numEvens; i++)
+           *   {
+           *        evens[i-1] = i * 2;
+           *   }
+           *   
+           */
+          
+          doubleNums(num, evens);
+          
+          System.out.println(num); //num is a primitive type so nothing changes
+          
+          for(int i = 0; i < evens.length; i++)
+               System.out.println(evens[i]); //arrays store data references, so the indexes change
+          
+          
+     }//end main
+     
+     public static void doubleNums(int val, int values[])
+     {
+          val *= 2;
+          
+          for(int i = 0; i < values.length; i++)
+               values[i] *= 2;
+     }
+}//end class

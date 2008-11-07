@@ -5,7 +5,9 @@ package tictactoe_dietzler;
  */
 public class TicTacToe
 {
-     private String[][] board;
+     private String[][] board = {{"T","i","c"},
+                                 {"T","a","c"},
+                                 {"T","o","e"}};;
      private static final int ROWS = 3;
      private static final int COLUMNS = 3;
      public static final String X = "§";
@@ -16,8 +18,8 @@ public class TicTacToe
       */
      public TicTacToe()
      {
-          board = new String[ROWS][COLUMNS];
-          initializeBoard();
+          //board = new String[ROWS][COLUMNS];
+          //initializeBoard();
      }
      
      

@@ -1,0 +1,34 @@
+package topicsExamples.Objects.Purse;
+
+import java.util.ArrayList;
+
+public class Purse extends ArrayList<Coin>
+{
+     
+     /**
+      * Creates a general Purse
+      */
+     public Purse() {}
+     
+     /**
+      * Creates a new purse with an ArrayList of Coins in it
+      * @param coins the Coins to start with
+      */
+     public Purse(ArrayList<Coin> coins)
+     {
+          for(int i = 0; coins.size() > 0; i++)
+               this.add(coins.remove(i)) ;
+     }//end Constructor
+     
+     public void reverseCoins()
+     {
+          ArrayList<Coin> temp = new ArrayList<Coin>();
+          
+          for(Coin e : this)
+               temp.add(0, e);
+          
+          for(Coin e: this)
+               this.add(temp.remove(0));
+     }
+
+}//end Purse class
