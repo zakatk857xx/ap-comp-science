@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/SuDoKuProject/src/SuDoKu.java"/>
+<listEntry value="/SuDoKuCode/src/SuDoKu.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="SuDoKu"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SuDoKuProject"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="1, 4, 9, 16, 9, 7, 4, 9, 11"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SuDoKuCode"/>
 </launchConfiguration>

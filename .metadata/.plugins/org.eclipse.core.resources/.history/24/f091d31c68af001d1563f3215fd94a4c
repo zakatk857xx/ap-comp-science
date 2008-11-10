@@ -1,0 +1,30 @@
+
+public class AlternatingSum
+{
+     public static void main(String[] args)
+     {
+          int[] nums = new int[args.length];
+          
+          for(int i = 0; i < nums.length; i++)
+          {
+               if(i != nums.length - 1)
+                    nums[i] = Integer.parseInt(args[i].substring(0, args[i].length() - 1)); //cut off the comma
+               else
+                    nums[i] = Integer.parseInt(args[i]);
+          }
+          
+          for(int i = 0; i < nums.length; i++)
+               System.out.println(nums[i]);
+          
+          int sum = 0;
+          for(int i = 0; i < nums.length; i++)
+          {
+               if(i % 2 == 0)
+                    sum += nums[i];
+               else
+                    sum -=nums[i];
+          }
+          
+          System.out.println(sum);
+     }//end main
+}//end class

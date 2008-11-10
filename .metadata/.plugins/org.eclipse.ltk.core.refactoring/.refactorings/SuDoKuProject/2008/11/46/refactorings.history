@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 1 element(s) from project 'SuDoKuProject'&#10;- Original project: 'SuDoKuProject'&#10;- Original element: 'SuDoKuProject/src'" description="Delete element" element1="/src" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1226323393418" subPackages="false" version="1.0"/>
+</session>

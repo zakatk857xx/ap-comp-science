@@ -2,6 +2,11 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.lastextjar" value="/Users/tzaki/java/GridWorldCode"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="480,442"/>
+	<section name="JavaBuildConfigurationBlock">
+		<item key="expanded2" value="false"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded0" value="true"/>
+	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements(s) to 'Lab05/src/(default package)'&#10;- Original project: 'SuDoKuCode'&#10;- Destination element: 'Lab05/src/(default package)'&#10;- Original elements:&#10;     Board.java&#10;     SuDoKu.java" description="Copy compilation units" destination="/src&lt;" element1="/src&lt;{Board.java" element2="/src&lt;{SuDoKu.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="/src&lt;{Board.java&#9;true&#9;false&#10;/src&lt;{SuDoKu.java&#9;true&#9;false" policy="org.eclipse.jdt.ui.copyResources" stamp="1226351388297" units="2" version="1.0"/>
+</session>
