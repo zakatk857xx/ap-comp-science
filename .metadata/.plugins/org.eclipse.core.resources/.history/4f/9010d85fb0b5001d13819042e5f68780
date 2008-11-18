@@ -1,0 +1,26 @@
+/**
+ * Uses static methods to compute stuff
+ * 
+ * @author Thomas Zaki
+ *
+ */
+
+import java.util.Scanner;
+
+public class Input
+{
+     public static int readInt(Scanner in, String prompt, String error, int min, int max)
+     {
+          int temp;
+          
+          System.out.println(prompt);
+          temp = in.nextInt();
+          while(temp >= max || temp <= min)
+          {
+               System.out.println(error);
+               System.out.println(prompt);
+               temp = in.nextInt();
+          }          
+          return temp;
+     }//end readInt
+}//end class

@@ -30,7 +30,7 @@ public class SuDoKu
           //and also Board.EASY, Board.MEDIUM, Board.HARD
           
           
-          Board sdk = new Board(Board.MEDIUM);          
+          Board sdk = new Board();          
           
           boolean playing = true;
           int value, row, col;

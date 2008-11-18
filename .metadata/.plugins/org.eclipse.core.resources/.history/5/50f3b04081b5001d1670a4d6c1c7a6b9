@@ -1,0 +1,14 @@
+/**
+ * Uses static methods to compute formulas
+ * 
+ * @author Thomas Zaki
+ *
+ */
+public class P8_05
+{
+     public static void main(String [] args)
+     {
+          
+     }//end main
+
+}

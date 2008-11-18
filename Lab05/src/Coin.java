@@ -1,7 +1,7 @@
 /**
  * Simulates a coin
  * 
- * @author tzaki 
+ * @author Thomas Zaki
  * 11/05/08
  */
 public class Coin implements Comparable<Coin>
@@ -11,7 +11,7 @@ public class Coin implements Comparable<Coin>
      private double value;
      
      /**
-      * Creates a new coin with a specified name and value
+      * Creates a new Coin with a specified name and value
       * 
       * @param n a name
       * @param v a value
@@ -23,7 +23,7 @@ public class Coin implements Comparable<Coin>
      }//end Constructor
      
      /**
-      * Returns the name of the coin
+      * Returns the name of the Coin
       * 
       * @return the name
       */
@@ -33,7 +33,7 @@ public class Coin implements Comparable<Coin>
      }//end getName
      
      /**
-      * Returns the value of the coin
+      * Returns the value of the Coin
       * 
       * @return the value
       */

@@ -17,14 +17,14 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="156" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1226414357013" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -32,37 +32,17 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AlternatingSum.java" partName="AlternatingSum.java" path="/Users/tzaki/java/Lab05/src/AlternatingSum.java" title="AlternatingSum.java" tooltip="Lab05/src/AlternatingSum.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/AlternatingSum.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P8_05.java" partName="P8_05.java" path="/Users/tzaki/java/minilab11_18/src/P8_05.java" title="P8_05.java" tooltip="minilab11_18/src/P8_05.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/minilab11_18/src/P8_05.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="605"/>
 </editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" partName="Board.java" path="/Users/tzaki/java/Lab05/src/Board.java" title="Board.java" tooltip="Lab05/src/Board.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/Board.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Coin.java" partName="Coin.java" path="/Users/tzaki/java/Lab05/src/Coin.java" title="Coin.java" tooltip="Lab05/src/Coin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/Coin.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PurseTest.java" partName="PurseTest.java" path="/Users/tzaki/java/Lab05/src/PurseTest.java" title="PurseTest.java" tooltip="Lab05/src/PurseTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/PurseTest.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Purse.java" partName="Purse.java" path="/Users/tzaki/java/Lab05/src/Purse.java" title="Purse.java" tooltip="Lab05/src/Purse.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/Purse.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuDoKu.java" partName="SuDoKu.java" path="/Users/tzaki/java/Lab05/src/SuDoKu.java" title="SuDoKu.java" tooltip="Lab05/src/SuDoKu.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05/src/SuDoKu.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Geometry.java" partName="Geometry.java" path="/Users/tzaki/java/minilab11_18/src/Geometry.java" title="Geometry.java" tooltip="minilab11_18/src/Geometry.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/minilab11_18/src/Geometry.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="222"/>
 </editor>
 </editors>
 <views>
@@ -119,7 +99,7 @@
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=Lab01/src&lt;{Bug.java[Bug" isWindowWorkingSet="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=Lab01/src&lt;{Bug.java[Bug" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="18">
 <columnOrder columnOrderIndex="0"/>
 <columnOrder columnOrderIndex="1"/>
 <columnOrder columnOrderIndex="2"/>
@@ -127,8 +107,21 @@
 <columnOrder columnOrderIndex="4"/>
 </viewState>
 </view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
+<expanded>&#x0A;<element path="/Class Work"/>
+<element path="/Class Work/src"/>
+<element path="/Class Work/src/Notes"/>
+</expanded>
+<selection>&#x0A;<element path="/Class Work/src/Notes"/>
+</selection>
+</viewState>
+</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -189,6 +182,7 @@
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
@@ -201,11 +195,12 @@
 <folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -245,7 +240,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@db85f9" ratio="0.5491184" ratioLeft="436" ratioRight="358" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@db85f9" ratio="0.65365237" ratioLeft="519" ratioRight="275" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -266,167 +261,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SuDoKuCode/src/Board.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SuDoKuCode/src/SuDoKu.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Class Work/src/topicsExamples/Objects/Purse/PurseTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/AlternatingSum.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Class Work/src/topicsExamples/Objects/Purse/Purse.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/Purse.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/PurseTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/Coin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/AlternatingSum.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/Board.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/SuDoKu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05/src/AlternatingSum.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/P8_5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/P8_10.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/P8_11.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/P8_05.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/Geometry.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/minilab11_18/src/Geometry.java"/>
 </editors>
-<item historyLabel="PurseTest.java" index="2">
-<position info="not_deleted" x="1690" y="0"/>
-</item>
-<item historyLabel="Purse.java" index="4">
-<position/>
-</item>
-<item historyLabel="Purse.java" index="5">
-<position/>
-</item>
-<item historyLabel="Purse.java" index="4">
-<position/>
-</item>
-<item historyLabel="Purse.java" index="5">
-<position/>
-</item>
-<item historyLabel="AlternatingSum.java" index="3">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="PurseTest.java" index="2">
-<position info="not_deleted" x="1690" y="0"/>
-</item>
-<item historyLabel="AlternatingSum.java" index="3">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="PurseTest.java" index="6">
-<position/>
-</item>
-<item historyLabel="Coin.java" index="7">
-<position/>
-</item>
-<item historyLabel="SuDoKu.java" index="1">
-<position info="not_deleted" x="1185" y="0"/>
-</item>
 <item historyLabel="Board.java" index="0">
-<position info="not_deleted" x="15092" y="0"/>
+<position info="not_deleted" x="5700" y="0"/>
 </item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="2426" y="0"/>
-</item>
-<item historyLabel="SuDoKu.java" index="1">
-<position info="not_deleted" x="1185" y="0"/>
-</item>
-<item historyLabel="Board.java" index="0">
-<position info="not_deleted" x="2007" y="787"/>
-</item>
-<item historyLabel="PurseTest.java" index="6">
+<item historyLabel="AlternatingSum.java" index="1">
 <position/>
 </item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3075" y="0"/>
-</item>
-<item historyLabel="Board.java" index="0">
-<position info="not_deleted" x="2646" y="0"/>
-</item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3401" y="0"/>
-</item>
-<item historyLabel="PurseTest.java" index="6">
+<item historyLabel="P8_5.java" index="2">
 <position/>
 </item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3401" y="0"/>
-</item>
-<item historyLabel="Coin.java" index="7">
+<item historyLabel="P8_10.java" index="3">
 <position/>
 </item>
-<item historyLabel="PurseTest.java" index="6">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3401" y="0"/>
-</item>
-<item historyLabel="Coin.java" index="7">
-<position info="not_deleted" x="1767" y="0"/>
-</item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3401" y="0"/>
-</item>
-<item historyLabel="PurseTest.java" index="6">
-<position info="not_deleted" x="87" y="0"/>
-</item>
-<item historyLabel="Purse.java" index="5">
-<position info="not_deleted" x="3401" y="0"/>
-</item>
-<item historyLabel="Coin.java" index="7">
-<position info="not_deleted" x="1767" y="0"/>
-</item>
-<item historyLabel="AlternatingSum.java" index="8">
+<item historyLabel="P8_05.java" index="5">
 <position/>
 </item>
-<item historyLabel="Board.java" index="9">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Coin.java" index="7">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="PurseTest.java" index="6">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Purse.java" index="5">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="SuDoKu.java" index="10">
+<item historyLabel="Geometry.java" index="6">
 <position/>
 </item>
-<item historyLabel="AlternatingSum.java" index="8">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Board.java" index="9">
+<item historyLabel="Geometry.java" index="6">
 <position/>
 </item>
-<item historyLabel="AlternatingSum.java" index="8">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Coin.java" index="7">
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="P8_10.java" index="3">
 <position/>
 </item>
-<item historyLabel="PurseTest.java" index="6">
+<item historyLabel="Geometry.java" index="6">
 <position/>
 </item>
-<item historyLabel="Purse.java" index="5">
+<item historyLabel="P8_05.java" index="5">
 <position/>
 </item>
-<item historyLabel="SuDoKu.java" index="10">
+<item historyLabel="P8_11.java" index="4">
 <position/>
 </item>
-<item historyLabel="Board.java" index="9">
+<item historyLabel="P8_05.java" index="5">
 <position/>
 </item>
-<item historyLabel="AlternatingSum.java" index="8">
+<item historyLabel="P8_11.java" index="4">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="906" y="1"/>
+</item>
+<item historyLabel="Geometry.java" index="6">
 <position/>
 </item>
-<item historyLabel="Coin.java" index="7">
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="108" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="509" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="150" y="979"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="226" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="303" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="487" y="0"/>
+</item>
+<item historyLabel="P8_11.java" index="4">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="6">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="P8_11.java" index="4">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="487" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="7">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="7">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="Geometry.java" index="7">
 <position/>
 </item>
-<item historyLabel="PurseTest.java" index="6">
-<position/>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="Purse.java" index="5">
-<position/>
+<item historyLabel="Geometry.java" index="7">
+<position info="not_deleted" x="840" y="0"/>
 </item>
-<item historyLabel="SuDoKu.java" index="10">
-<position/>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="AlternatingSum.java" index="8">
-<position/>
+<item historyLabel="Geometry.java" index="7">
+<position info="not_deleted" x="844" y="0"/>
 </item>
-<item active="true" historyLabel="Board.java" index="9">
-<position/>
+<item historyLabel="P8_05.java" index="5">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item active="true" historyLabel="Geometry.java" index="7">
+<position info="not_deleted" x="844" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -445,6 +437,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P8_11.java" tooltip="minilab11_18/src/P8_11.java">
+<persistable path="/minilab11_18/src/P8_11.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Geometry.java" tooltip="minilab11_18/src/Geometry.java">
+<persistable path="/minilab11_18/src/Geometry.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P8_10.java" tooltip="minilab11_18/src/P8_10.java">
+<persistable path="/minilab11_18/src/P8_10.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P8_5.java" tooltip="minilab11_18/src/P8_5.java">
+<persistable path="/minilab11_18/src/P8_5.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuDoKu.java" tooltip="Lab05/src/SuDoKu.java">
 <persistable path="/Lab05/src/SuDoKu.java"/>
 </file>
@@ -477,18 +481,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Area.java" tooltip="Misc/src/Area.java">
 <persistable path="/Misc/src/Area.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TicTacToeTester.java" tooltip="TicTacToeExamples/src/tictactoe_dietzler/TicTacToeTester.java">
-<persistable path="/TicTacToeExamples/src/tictactoe_dietzler/TicTacToeTester.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TicTacToe.java" tooltip="TicTacToeExamples/src/tictactoe_dietzler/TicTacToe.java">
-<persistable path="/TicTacToeExamples/src/tictactoe_dietzler/TicTacToe.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Board.java" tooltip="SuDoKuProject/src/Board.java">
-<persistable path="/SuDoKuProject/src/Board.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuDoKu.java" tooltip="SuDoKuProject/src/SuDoKu.java">
-<persistable path="/SuDoKuProject/src/SuDoKu.java"/>
 </file>
 </mruList>
 </workbench>

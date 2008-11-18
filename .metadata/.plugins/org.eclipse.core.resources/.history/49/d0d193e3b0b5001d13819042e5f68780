@@ -1,0 +1,31 @@
+/**
+ * Uses static methods to compute stuff
+ * 
+ * @author Thomas Zaki
+ *
+ */
+public class Numeric
+{
+     public static double intPower(double x, double n)
+     {
+          double result;
+          
+          if(n < 0)
+          {
+               result = 1 / Math.pow(x, -1 * n);
+          }
+          else
+          {
+               if(n % 2 == 0)
+               {
+                    result = Math.pow(Math.pow(x, n / 2), 2);
+               }
+               else
+               {
+                    result = Math.pow(x, n - 1) * x;
+               }
+          }
+          
+          return result;          
+     }//end intPower    
+}//end class

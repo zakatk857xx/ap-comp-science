@@ -1,0 +1,45 @@
+/**
+ * Collection of static methods to perform geometric formulas
+ * 
+ * @author Thomas Zaki
+ * Nov 18, 2008
+ *
+ */
+public class Geometry
+{     
+     public static double sphereVolume(double r)
+     {
+          return (4.0 / 3.0) * Math.PI * Math.pow(r, 3);
+          
+     }//end shpereVolume
+     
+     public static double sphereSurface(double r)
+     {
+          return 4 * Math.PI * Math.pow(r, 2);
+          
+     }//end shpereVolume
+     
+     public static double cylinderVolume(double r, double h)
+     {
+          return Math.PI * Math.pow(r, 2) * h;
+          
+     }//end cylinderVolume
+     
+     public static double cylinderSurface(double r, double h)
+     {
+          return (2 * Math.PI * Math.pow(r, 2)) + (2 * r * h);
+          
+     }//end cylinderVolume
+     
+     public static double coneVolume(double r, double h)
+     {          
+          return (1.0 / 3.0) * Math.PI * Math.pow(r, 2) * h;
+          
+     }//end coneVolume
+     
+     public static double coneSurface(double r, double h)
+     {          
+          return (Math.PI * r) * (Math.sqrt(Math.pow(r, 2) + Math.pow(h, 2)) + r);
+          
+     }//end coneVolume
+}//end class

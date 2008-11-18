@@ -1,5 +1,5 @@
 /**
- * Prints the alternating sum of the ints entered at the command line
+ * Prints the alternating sum of the integers entered at the command line
  *   separated by spaces
  * 
  * @author Thomas Zaki
@@ -10,6 +10,7 @@ public class AlternatingSum
 {
      public static void main(String[] args)
      {
+          //receive numbers at command line
           int[] nums = new int[args.length];
           
           for(int i = 0; i < nums.length; i++)

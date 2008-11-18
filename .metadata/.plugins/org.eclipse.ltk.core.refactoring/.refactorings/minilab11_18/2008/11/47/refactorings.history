@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename type 'P8_5' to 'P8_05'&#10;- Original project: 'minilab11_18'&#10;- Original element: 'P8_5'&#10;- Renamed element: 'P8_05'&#10;- Update references to refactored element&#10;- Update textual occurrences in comments and strings" description="Rename type 'P8_5'" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{P8_5.java[P8_5" matchStrategy="1" name="P8_05" qualified="false" references="true" similarDeclarations="false" stamp="1227018627102" textual="false" version="1.0"/>
+</session>

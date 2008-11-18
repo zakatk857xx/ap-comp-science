@@ -2,14 +2,14 @@
 <section name="Workbench">
 	<section name="ImportExportAction">
 	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="78"/>
+		<item key="DIALOG_Y_ORIGIN" value="41"/>
+	</section>
 	<section name="ShowViewDialog">
 		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.eclipse.debug.ui.DebugView"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.debug.ui"/>
 		</list>
-	</section>
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="78"/>
-		<item key="DIALOG_Y_ORIGIN" value="41"/>
 	</section>
 </section>

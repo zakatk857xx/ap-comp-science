@@ -1,0 +1,34 @@
+Chapter 8 - Choosing Classes
+
+    Section 8.1 - Choosing Classes
+        (*)What makes a good class
+            > Represents a SINGLE concept
+            > Instance fields and methods should be connected to that single theme or concept.
+        (*)Types of Classes
+            > Noun        - anything that can identified as a noun in your project
+            > Actor       - does the work for you (e.g. Scanner, Random)
+            > Utility     - contains a collection of useful static methods and constants (e.g. Math, System)
+            > Application - contains a main method
+            
+    Section 8.2 - Cohesion and Coupling
+        (*)The public interface of a class is COHESIVE if all of its features are related
+             to the concept that the class represents.
+        (*)A class depends on another class if it uses objects of that class.
+        (*)COUPLING occurs when once class is dependent upon another.  It is good practice to minimize coupling.
+            > Good practice to minimize coupling
+            
+    Section 8.3 - Acessors, Mutators, and Immutable Classes
+        (*)In some cases, the state of an object cannot be changed.
+        (*)Immutable classes have no mutator methods.
+            > Safe to give out references to its objects freely
+            > The String object is immutable
+            
+            Example:
+                String name = "Alex Trebeck";
+                String uppercase = name.toUppercase(); // creates a copy
+            
+    Section 8.4 - Side Effects
+        (*)Side effects of methods are any externally observable data modifications (mutator methods).
+        (*)You should minimize side effects that go beyond the modification of the implicit parameter.
+            
+            

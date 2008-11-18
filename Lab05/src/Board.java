@@ -103,7 +103,7 @@ public class Board
      /**
       * Returns whether the <code>Board</code> is full or not
       * 
-      * @return true if the <code>Board</code> is full, otherwise false
+      * @return <code>true</code> if the <code>Board</code> is full, otherwise <code>false</code>
       */
      public boolean fullBoard()
      {
@@ -123,7 +123,7 @@ public class Board
       * 
       * @param r the row
       * @param c the column
-      * @return false if an error occurs, otherwise true
+      * @return <code>false</code> if an error occurs, otherwise <code>true</code>
       */
      private boolean setRowAndColAndBox(int r, int c)
      {
@@ -133,70 +133,25 @@ public class Board
           row = r;
           col = c;
           
-          //assigns the row index values
-          switch(row)
+          if(row < 1 || row > 9)
           {
-               case 1:  rowIndexA = 0; rowIndexB = 0; break;
-               case 2:  rowIndexA = 0; rowIndexB = 1; break;
-               case 3:  rowIndexA = 0; rowIndexB = 2; break;
-               case 4:  rowIndexA = 1; rowIndexB = 0; break;
-               case 5:  rowIndexA = 1; rowIndexB = 1; break;
-               case 6:  rowIndexA = 1; rowIndexB = 2; break;
-               case 7:  rowIndexA = 2; rowIndexB = 0; break;
-               case 8:  rowIndexA = 2; rowIndexB = 1; break;
-               case 9:  rowIndexA = 2; rowIndexB = 2; break;
-               default: result = false; err += "\n(*) Column '" + col + "' does not exist.\n";
-          }//end switch row
-          
-          //assigns the column index values
-          switch(col)
+               result = false; 
+               err += "\n(*) Row '" + row + "' does not exist.\n";
+          }//end if
+          if(col < 1 || col > 9)
           {
-               case 1:  colIndexA = 0; colIndexB = 0; break;
-               case 2:  colIndexA = 0; colIndexB = 1; break;
-               case 3:  colIndexA = 0; colIndexB = 2; break;
-               case 4:  colIndexA = 1; colIndexB = 0; break;
-               case 5:  colIndexA = 1; colIndexB = 1; break;
-               case 6:  colIndexA = 1; colIndexB = 2; break;
-               case 7:  colIndexA = 2; colIndexB = 0; break;
-               case 8:  colIndexA = 2; colIndexB = 1; break;
-               case 9:  colIndexA = 2; colIndexB = 2; break;
-               default: result = false; err += "\n(*) Row '" + row + "' does not exist.";
-          }//end switch column
+               result = false; 
+               err += "\n(*) Column '" + col + "' does not exist.\n";
+          }//end if
           
-          //assigns the vale of box, based on row/column values
-          if((row == 1 || row == 2 || row == 3) && (col == 1 || col == 2 || col == 3)) 
-               box = 1;
-          else if((row == 1 || row == 2 || row == 3) && (col == 4 || col == 5 || col == 6)) 
-               box = 2;
-          else if((row == 1 || row == 2 || row == 3) && (col == 7 || col == 8 || col == 9)) 
-               box = 3;
-          else if((row == 4 || row == 5 || row == 6) && (col == 0 || col == 1 || col == 2)) 
-               box = 4;
-          else if((row == 4 || row == 5 || row == 6) && (col == 4 || col == 5 || col == 6)) 
-               box = 5;
-          else if((row == 4 || row == 5 || row == 6) && (col == 7 || col == 8 || col == 9)) 
-               box = 6;
-          else if((row == 7 || row == 8 || row == 9) && (col == 1 || col == 2 || col == 3)) 
-               box = 7;
-          else if((row == 7 || row == 8 || row == 9) && (col == 4 || col == 5 || col == 6)) 
-               box = 8;
-          else if((row == 7 || row == 8 || row == 9) && (col == 7 || col == 8 || col == 9)) 
-               box = 9;
-          
-          //assigns the box index values
-          switch(box)
-          {
-               case 1:  boxIndexA = 0; boxIndexB = 0; break;
-               case 2:  boxIndexA = 0; boxIndexB = 1; break;
-               case 3:  boxIndexA = 0; boxIndexB = 2; break;
-               case 4:  boxIndexA = 1; boxIndexB = 0; break;
-               case 5:  boxIndexA = 1; boxIndexB = 1; break;
-               case 6:  boxIndexA = 1; boxIndexB = 2; break;
-               case 7:  boxIndexA = 2; boxIndexB = 0; break;
-               case 8:  boxIndexA = 2; boxIndexB = 1; break;
-               case 9:  boxIndexA = 2; boxIndexB = 2; break;
-               default: result = false;
-          }//end switch box
+          rowIndexA = ((row - 1) / 3); //Row of major grid
+          rowIndexB = ((row - 1) % 3); //Row of sub-grids of major row
+          colIndexA = ((col - 1) / 3); //Column of major grid
+          colIndexB = ((col - 1) % 3); //Column of sub-grids of major column
+          boxIndexA = rowIndexA; //Row of the box of major grid
+          boxIndexB = colIndexA; //Column of the box of major grid
+
+          box = 3 * boxIndexA + (boxIndexB + 1);
           
           return result;
      }//end setRowAndColAndBox
@@ -205,7 +160,7 @@ public class Board
       * Checks a row for potential repeats
       * 
       * @param value the value to find repeats of
-      * @return false if a repeat exists, otherwise true
+      * @return <code>false</code> if a repeat exists, otherwise <code>true</code>
       */
      private boolean checkRow(int value)
      {
@@ -228,7 +183,7 @@ public class Board
       * Checks a column for potential repeats
       * 
       * @param value the value to find repeats of
-      * @return false if a repeat exists, otherwise true
+      * @return <code>false</code> if a repeat exists, otherwise <code>true</code>
       */
      private boolean checkCol(int value)
      {
@@ -251,7 +206,7 @@ public class Board
       * Checks a box for potential repeats
       * 
       * @param value the value to find repeats of
-      * @return false if a repeat exists, otherwise true
+      * @return <code>false</code> if a repeat exists, otherwise <code>true</code>
       */
      private boolean checkBox(int value)
      {
@@ -273,7 +228,7 @@ public class Board
      /**
       * Checks if the current space is already occupied
       * 
-      * @return false if the space is occupied, otherwise true
+      * @return <code>false</code> if the space is occupied, otherwise <code>true</code>
       */
      private boolean isOccupied()
      {
@@ -295,7 +250,7 @@ public class Board
       * @param value the value being checked
       * @param row the new current row to be checked
       * @param col the new current column to be checked
-      * @return false if an error occurs, otherwise true
+      * @return <code>false</code> if an error occurs, otherwise <code>true</code>
       */
      private boolean checkPlacement(int value, int row, int col)
      {
@@ -334,7 +289,7 @@ public class Board
       * @param value the value to be added
       * @param row the row to add the value in
       * @param col the column to add the value in
-      * @return false if an error occurs, otherwise true
+      * @return <code>false</code> if an error occurs, otherwise <code>true</code>
       */
      public boolean addNum(int value, int row, int col)
      {
