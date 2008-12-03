@@ -1,0 +1,168 @@
+import java.applet.*;
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.event.*;
+import java.util.Random;
+
+/**
+ * 
+ * Applet stuff
+ * 
+ * @author Thomas Zaki
+ * Nov 21, 2008
+ *
+ */
+public class Lab6Applet extends Applet implements MouseListener, MouseMotionListener, KeyListener
+{
+     
+     //This shape will be controlled within the Applet
+     private Rectangle2D.Double box;
+     private double x, y, horiz, vert;
+     private Color color;
+     private Random gen;
+     private String text;
+     private int face;
+     
+     private static final int BOX_SMILE = 1;
+     private static final int BOX_NONE  = 0;
+     private static final int BOX_FROWN = -1;
+     
+     public void init()
+     {
+          horiz = 100.0;
+          vert = 100.0;
+          x = this.getWidth()/2 - horiz/2;
+          y = this.getHeight()/2 - vert/2;
+          box = new Rectangle2D.Double (x, y, horiz, vert);
+          color = Color.red; 
+          text = "THIS IS A BOX";
+          gen = new Random();        
+          
+          this.setLocation(250, 250);
+          
+          //This code sets the Applet up to allow for and react to keyboard input.
+          this.setFocusable(true);
+          this.addKeyListener(this);
+          this.addMouseMotionListener(this);
+          this.addMouseListener(this);
+          this.repaint();
+          
+     }//end init
+     
+     //This method paints (or updates) the shape(s) on the screen
+     public void paint(Graphics g)
+     {
+          //recover Graphics2D
+          Graphics2D g2 = (Graphics2D)g; 
+          
+          g2.setColor(color);
+          g2.fill(box);
+          g2.setColor(Color.BLACK);
+          g2.draw(box);
+          g2.drawString(text, (int)x, (int)y);
+          
+          switch(face)
+          {               
+               case BOX_NONE:  break;
+               case BOX_SMILE: g2.drawArc((int)x, (int)(y - (vert / 5)), (int)(horiz), (int)(vert), 225, 90); break;
+               case BOX_FROWN: g2.drawArc((int)x, (int)(y + (vert / 5) + vert), (int)(horiz), (int)(vert), 45, 90); break;
+          }
+          
+     }//end paint method
+     
+     
+     /*
+      * BELOW YOU WILL IMPLEMENT THE NECESSARY METHODS
+      * TO HAVE THE BOX FOLLOW THE MOUSE AS IT MOVES ABOUT THE
+      * SCREEN AND RESIZE WHEN CERTAIN KEYS ARE PRESSED.
+      */
+     
+     public void keyPressed(KeyEvent e)      
+     {
+          x += horiz/2;
+          y += vert/2;
+          
+          if(e.getKeyCode() == KeyEvent.VK_UP)
+          {
+               text = "THIS IS A GROWING BOX";
+               horiz += 2;
+               vert  += 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_DOWN)
+          {
+               text = "THIS IS A SHRINKING BOX";
+               horiz -= 2;
+               vert  -= 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_SPACE) 
+          {
+               this.init();
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_1)
+          {
+               text = "THIS IS A STRETCHING BOX";
+               horiz += 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_3)
+          {
+               text = "THIS IS A STRETCHING BOX";
+               vert  += 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_2)
+          {
+               text = "THIS IS A SQUISHING BOX";
+               horiz -= 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_4)
+          {
+               text = "THIS IS A SQUISHING BOX";
+               vert  -= 2;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_S)
+          {
+               text += "THIS IS A SMILING BOX";
+               face = BOX_SMILE;
+          }
+          else if(e.getKeyCode() == KeyEvent.VK_F)
+          {
+               text += "THIS IS A FROWNING BOX";
+               face = BOX_FROWN;
+          }
+          
+          x -= horiz/2;
+          y -= vert/2;
+          box.setFrame(x, y, horiz, vert);
+          this.repaint();
+     }
+     public void keyReleased(KeyEvent e)     
+     {
+          text = "THIS IS A BOX";
+          face = BOX_NONE;
+     }
+     public void keyTyped(KeyEvent e)        {}
+     public void mouseExited(MouseEvent e)   {}
+     public void mouseEntered(MouseEvent e)  {}     
+     public void mouseClicked(MouseEvent e)  {}
+     public void mousePressed(MouseEvent e)  {}
+     public void mouseReleased(MouseEvent e) 
+     {
+          text = "THIS IS A BOX";
+     }
+     public void mouseMoved(MouseEvent e)    
+     {
+          x = e.getX() - horiz/2;
+          y = e.getY() - vert/2;
+          box.setFrame(x, y, horiz, vert);
+          this.repaint();
+     }
+     public void mouseDragged(MouseEvent e)  
+     {
+          color = new Color(gen.nextInt(255), gen.nextInt(255), gen.nextInt(255));
+          x = e.getX() - horiz/2;
+          y = e.getY() - vert/2;
+          box.setFrame(x, y, horiz, vert);
+          text = "THIS IS A BLINKING BOX";
+          this.repaint();
+     }
+     
+}//end MyFirstApplet class

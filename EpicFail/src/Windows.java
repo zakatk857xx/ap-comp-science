@@ -12,10 +12,9 @@ public class Windows
           
           final int RESOLUTION_X = 1440;
           final int RESOLUTION_Y = 900;
-          final int FRAME_DIMENSIONS = 100;
+          final int FRAME_DIMENSIONS = 10;
           final int COLOR_RANGE = 50;
-          final int MOVE_INCREMENT = 25;
-          
+          final int MOVE_INCREMENT = 55;          
           
           while(true) 
           {
@@ -24,7 +23,7 @@ public class Windows
                int color = 255 - gen.nextInt(COLOR_RANGE);
                
                frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);               
-               //frame.setUndecorated(true);
+               frame.setUndecorated(true);
                frame.setBackground(new Color(color, color, color));
                frame.setBounds(gen.nextInt(RESOLUTION_X), 0, FRAME_DIMENSIONS, FRAME_DIMENSIONS);
                frame.setAlwaysOnTop(true);
@@ -46,9 +45,6 @@ public class Windows
                          frames.remove(i);
                     }
                }
-               
-               
-               
           }
      }
 }

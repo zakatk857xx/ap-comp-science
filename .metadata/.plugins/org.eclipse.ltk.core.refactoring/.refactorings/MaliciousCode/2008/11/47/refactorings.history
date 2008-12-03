@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit 'Malicious1.java' to 'Do_You_Have_Your_Goggles_On_Yet.java'&#10;- Original project: 'MaliciousCode'&#10;- Original element: 'Malicious1.java'&#10;- Renamed element: 'Do_You_Have_Your_Goggles_On_Yet.java'" description="Rename compilation unit 'Malicious1.java'" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Malicious1.java" name="Do_You_Have_Your_Goggles_On_Yet.java" references="false" stamp="1227307348287" version="1.0"/>
+<refactoring comment="Rename compilation unit 'dfghfg.java' to 'ExitFromMenu.java'&#10;- Original project: 'MaliciousCode'&#10;- Original element: 'dfghfg.java'&#10;- Renamed element: 'ExitFromMenu.java'" description="Rename compilation unit 'dfghfg.java'" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{dfghfg.java" name="ExitFromMenu.java" references="false" stamp="1227308845695" version="1.0"/>
+</session>

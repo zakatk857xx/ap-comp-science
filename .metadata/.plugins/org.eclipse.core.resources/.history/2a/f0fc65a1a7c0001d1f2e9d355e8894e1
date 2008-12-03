@@ -1,0 +1,16 @@
+<html>
+ 
+ <head>
+ 
+     <title>SWEET!</title>
+ 
+ </head>
+ 
+ 
+ <body>
+ 
+     <applet code="Lab6Applet.java" width="750" height="500"> the code did not work! </applet>
+    
+ </body>
+ 
+</html>

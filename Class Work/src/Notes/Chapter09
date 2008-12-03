@@ -1,0 +1,51 @@
+Chapter 9 - Interfaces and Polymorphism
+
+    Section 9.1 - Choosing Classes
+        (*)Interfaces make code reusable
+            >Company example w/ 100 employees working on a single project
+        (*)Interface Example:
+        
+            public interface Measurable
+            {
+                double getMeasure();
+            }
+            
+        (*)An interface is the skeletal structure of the methods that a class implementing the interface
+             must contain
+        (*)Can reduce coupling between classes
+        
+    Section 9.2 - Converting Between Class and Interface Types
+        (*)Can convert from class to interface type, provided the class implements the interface
+        (*)Cannot instantiate the interface; rather, you can declare the object
+        
+            Good:
+            Coin dime = new Coin("Dime", 0.1);
+            Measurable x = dime;
+         
+            Bad:
+            Measurable x = new Rectangle... //Not Valid
+            Measurable x = new Measurable... //Meaningless
+        
+        (*)You need a cast to convert from an interface type to a class type
+        
+            Coin dime = new Coin("Dime", 0.1);
+            Measurable x = dime;
+            
+            Purse.add((Coin) x); //cast necessary here
+            
+    Section 9.3 - Polymorphism
+        (*)The Problem: When multiple classes implement the same interface, each class implements
+             the included methods in different ways.  How, then, is the correct method executed,
+             when the interface method is invoked
+        (*)POLYMORPHISM denotes the idea that behavior can vary depending on the actual type of an object
+            > early binding: refers to method selection by the compiler before the class is compiled
+            > late binding: refers to method selection place during runtime
+            
+         
+             
+             
+             
+             
+             
+             
+             

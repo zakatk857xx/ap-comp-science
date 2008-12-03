@@ -1,0 +1,33 @@
+<html><body>
+<p>Here is a sample program output:</p><p><img alt="screen capture" src="HelloViewer.png" /></p>
+<p>Use the following class as your main class:</p><pre>
+import javax.swing.JFrame;
+
+public class HelloViewer
+{
+   public static void main(String[] args)
+   {
+      JFrame frame = new JFrame();
+
+      final int FRAME_WIDTH = 200;
+      final int FRAME_HEIGHT = 150;
+
+      frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
+      frame.setTitle("HelloViewer");
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+      LettersComponent component = new LettersComponent();
+      frame.add(component);
+
+      frame.setVisible(true);
+   }
+}
+</pre>
+<p>You need to supply the following classes in your solution:</p><pre>
+LettersComponent
+LetterE
+LetterH
+LetterL
+LetterO
+</pre>
+</body></html>
