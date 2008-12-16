@@ -118,8 +118,8 @@ public class Lab6Applet extends Applet implements MouseListener, MouseMotionList
           }
           
           g2.drawString(
-                    "[X: " + Double.toString(x) + "]" 
-                  + "[Y: " + Double.toString(y) + "]"
+                    "[X: " + Double.toString(x + horiz / 2) + "]" 
+                  + "[Y: " + Double.toString(y + vert / 2) + "]"
                   + "[Width: " + Double.toString(horiz) + "]"
                   + "[Height:" + Double.toString(vert) + "]", 0, 12);
           g2.drawString("Controls:", 0, 30);

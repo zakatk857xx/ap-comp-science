@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
 	<item key="org.eclipse.jdt.ui.lastextjar" value="/Users/tzaki/java/GridWorldCode"/>
+	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="org.eclipse.jdt.uiformatter_page.white_space_tab_page.node" value="0"/>
+	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
+	<item key="org.eclipse.jdt.uiformatter_page.white_space.java_view.inner" value="0"/>
+	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_x" value="0"/>
+	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_width" value="983"/>
+	<item key="org.eclipse.jdt.uiformatter_page.line_wrapping_tab_page.last_category_index" value="1"/>
+	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_y" value="22"/>
 	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
-	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_height" value="743"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="480,442"/>
+	<item key="org.eclipse.jdt.ui.codeformatter.savepath" value="/Volumes/MOOGAN"/>
 	<section name="JavaBuildConfigurationBlock">
 		<item key="expanded2" value="false"/>
 		<item key="expanded1" value="false"/>

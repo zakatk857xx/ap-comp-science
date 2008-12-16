@@ -21,7 +21,9 @@ public class Grid
                     currentGrid[i][j] = false;
                     tempGrid[i][j] = false;
                }
-          }          
+          }        
+          
+          tempGrid[0][0] = true;
      }
      
      public Grid(int x, int y)
@@ -37,6 +39,8 @@ public class Grid
                     tempGrid[i][j] = false;
                }
           }          
+          
+          tempGrid[0][0] = true;
      }
                
      public void click(int row, int column)

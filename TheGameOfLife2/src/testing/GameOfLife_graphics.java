@@ -5,8 +5,10 @@ import graphicsElements.GridComponent;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
+import java.awt.MenuShortcut;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -20,12 +22,14 @@ import javax.swing.JSlider;
 import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import java.awt.*;
+import java.awt.event.*;
 
 public class GameOfLife_graphics
 {
      public static void main(String args [])
      {
-          JFrame frame = new JFrame("The Game of Life");     
+          Frame frame = new Frame("The Game of Life");     
           
           int sideDimension;
           int sizeConstant = 0;
@@ -50,7 +54,7 @@ public class GameOfLife_graphics
           final Grid g = new Grid(sideDimension);
           final GridComponent grid = new GridComponent(g, sizeConstant);
           
-          JButton nextGen = new JButton("Next Generation");          
+          Button nextGen = new Button("Next Generation");          
           class ButtonListener implements ActionListener
           {
                public void actionPerformed(ActionEvent event)
@@ -62,7 +66,7 @@ public class GameOfLife_graphics
           ActionListener listener1 = new ButtonListener();
           nextGen.addActionListener(listener1);
           
-          JPanel bottomPanel = new JPanel();
+          Panel bottomPanel = new Panel();
           bottomPanel.setLayout(new GridLayout(3,1));
           final JSlider boxSizeSlider  = new JSlider(0, 50, sizeConstant);
           
@@ -107,29 +111,30 @@ public class GameOfLife_graphics
           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      }
      
-     public static void addMenuBar(JFrame window, final Grid g, final GridComponent grid)
+     public static void addMenuBar(Frame window, final Grid g, final GridComponent grid)
      {
-          JMenuBar mainMenu = new JMenuBar();
+          MenuBar mainMenu = new MenuBar();
           
-          JMenu file = new JMenu("File");  
-          JMenu reset = new JMenu("Reset");
-          JMenuItem reset_a = new JMenuItem("All");
-          JMenuItem reset_c = new JMenuItem("Color");
-          JMenuItem redefine = new JMenuItem("Redefine"); 
-          JMenuItem exit = new JMenuItem("Exit"); 
+          Menu file = new Menu("File");  
+          Menu reset = new Menu("Reset");
+          MenuItem reset_a = new MenuItem("All");
+          MenuItem reset_c = new MenuItem("Color");
+          MenuItem redefine = new MenuItem("Redefine"); 
+          MenuItem exit = new MenuItem("Exit"); 
           
-          JMenu options = new JMenu("Options");  
-          JMenu gridVisible = new JMenu("Show/Hide Grid"); 
-          final JMenuItem grid_v = new JMenuItem("Change to Hidden"); 
-          JMenu color = new JMenu("Colors"); 
-          final JMenuItem color_g = new JMenuItem("Grid"); 
-          final JMenuItem color_c = new JMenuItem("Cells");
-          final JMenuItem color_b = new JMenuItem("Background");
-          JMenu shape = new JMenu("Cell Shape");
-          final JMenuItem shape_c = new JMenuItem("Circle"); 
-          final JMenuItem shape_r = new JMenuItem("Rectangle");
-          JMenu filled = new JMenu("Fill"); 
-          final JMenuItem shape_f = new JMenuItem("Change to Filled");
+          Menu options = new Menu("Options");  
+          Menu gridVisible = new Menu("Show/Hide Grid"); 
+          final MenuItem grid_v = new MenuItem("Change to Hidden"); 
+          Menu color = new Menu("Colors"); 
+          final MenuItem color_g = new MenuItem("Grid", new MenuShortcut(
+                    KeyEvent.VK_X)); 
+          final MenuItem color_c = new MenuItem("Cells");
+          final MenuItem color_b = new MenuItem("Background");
+          Menu shape = new Menu("Cell Shape");
+          final MenuItem shape_c = new MenuItem("Circle"); 
+          final MenuItem shape_r = new MenuItem("Rectangle");
+          Menu filled = new Menu("Fill"); 
+          final MenuItem shape_f = new MenuItem("Change to Filled");
           
           class exitListener implements ActionListener
           {
@@ -151,13 +156,13 @@ public class GameOfLife_graphics
                                                                          JOptionPane.PLAIN_MESSAGE)));
                     
                     grid.setVisibleGrid(true);
-                    grid_v.setText("Change to Hidden");
+                    grid_v.setLabel("Change to Hidden");
                     grid.setGridColor(Color.GRAY);
                     grid.setCellColor(Color.RED);
                     grid.setBackgroundColor(new Color(236, 236, 236));
                     grid.setCellShape(GridComponent.CIRCLE);
                     grid.setCellsFilled(false);
-                    shape_f.setText("Change to Filled");
+                    shape_f.setLabel("Change to Filled");
                     
                     grid.repaint();                    
                }
@@ -170,13 +175,13 @@ public class GameOfLife_graphics
                public void actionPerformed(ActionEvent e)
                {
                     grid.setVisibleGrid(true);
-                    grid_v.setText("Change to Hidden");
+                    grid_v.setLabel("Change to Hidden");
                     grid.setGridColor(Color.GRAY);
                     grid.setCellColor(Color.RED);
                     grid.setBackgroundColor(new Color(236, 236, 236));
                     grid.setCellsFilled(false);
                     grid.setCellShape(GridComponent.CIRCLE);
-                    shape_f.setText("Change to Filled");
+                    shape_f.setLabel("Change to Filled");
                     
                     grid.repaint();                    
                }
@@ -205,9 +210,9 @@ public class GameOfLife_graphics
                     grid.setVisibleGrid(!grid.getVisibleGrid());
                     
                     if(grid.getVisibleGrid())
-                         grid_v.setText("Change to Hidden"); 
+                         grid_v.setLabel("Change to Hidden"); 
                     else if (!grid.getVisibleGrid())
-                         grid_v.setText("Change to Visible");
+                         grid_v.setLabel("Change to Visible");
                     
                     grid.repaint();
                }
@@ -280,9 +285,9 @@ public class GameOfLife_graphics
                     grid.setCellsFilled(!grid.areCellsFilled());
                     
                     if(grid.areCellsFilled())
-                         shape_f.setText("Change to Spaced"); 
+                         shape_f.setLabel("Change to Spaced"); 
                     else if (!grid.areCellsFilled())
-                         shape_f.setText("Change to Filled");
+                         shape_f.setLabel("Change to Filled");
                     
                     grid.repaint();
                }

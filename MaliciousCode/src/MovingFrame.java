@@ -1,0 +1,99 @@
+import javax.swing.*;
+import javax.swing.event.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+public class MovingFrame extends JFrame implements MouseListener, MouseMotionListener
+{
+     private Random gen;
+     
+     private double dx, dy;
+     private int mouseX, mouseY;
+     private boolean o;
+     
+     public MovingFrame(int x, int y, int w, int h, double sx, double sy, Color c, boolean opt)
+     {
+          this.setBounds(x,y,w,h);
+          
+          dx = sx;
+          dy = sy;
+          
+          gen = new Random();
+          
+          o = opt;
+          
+          this.setUndecorated(true);
+          this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+          this.setAlwaysOnTop(true);
+          this.setFocusable(true);
+          
+          this.addMouseMotionListener(this);
+          this.add(new DietzlerComponent(c, o));
+
+          this.setVisible(true);
+     }
+     
+     public void invertDx()
+     {
+          dx*=-1;
+     }
+     
+     public void invertDy()
+     {
+          dy*=-1;
+     }
+     
+     public void changeSlope(double x, double y)
+     {
+          dx = x;
+          dy = y;
+     }
+     
+     public void setX(int x)
+     {
+          this.setBounds(x, this.getY(), this.getWidth(), this.getHeight());
+     }
+     
+     public void setY(int y)
+     {
+          this.setBounds(this.getX(), y, this.getWidth(), this.getHeight());
+     }
+     
+     
+     public void move()
+     {
+          this.setBounds((int)(this.getX() + dx), (int)(this.getY() + dy), this.getWidth(), this.getHeight());
+          if(o)
+               this.repaint();
+     }
+     
+     public void changeColor()
+     {
+          this.setBackground(new Color(gen.nextInt(255), gen.nextInt(255), gen.nextInt(255), gen.nextInt(255)));
+     }     
+     
+     public void mouseEntered(MouseEvent e)  {}
+     public void mouseExited(MouseEvent e)   {}   
+     public void mouseClicked(MouseEvent e)  {}
+     public void mousePressed(MouseEvent e)  
+     {
+          mouseX = e.getX();
+          mouseY = e.getY();
+     }
+     public void mouseReleased(MouseEvent e) 
+     {
+          System.out.println("NEW FRAME");
+     }     
+     public void mouseDragged(MouseEvent e)
+     {
+          this.setBounds(
+                    this.getX() + (e.getX() - mouseX) - 40,
+                    this.getY() + (e.getY() - mouseY) - 50,
+                    this.getWidth(), this.getHeight());
+          System.out.println("#######\nX: " + (this.getX() + (e.getX() - mouseX) - 40));
+          System.out.println("Y: " + (this.getY() + (e.getY() - mouseY) - 50));
+     }     
+     public void mouseMoved(MouseEvent e)    {}
+
+}

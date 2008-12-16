@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to 'GridWorldProjects/src/myCritters'&#10;- Original project: 'minilabGridWorld'&#10;- Destination element: 'GridWorldProjects/src/myCritters'&#10;- Original element: 'CharmeleonKid.java'" description="Copy compilation unit" destination="/src&lt;myCritters" element1="/src&lt;{CharmeleonKid.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="/src&lt;{CharmeleonKid.java&#9;true&#9;false" policy="org.eclipse.jdt.ui.copyResources" stamp="1229437765533" units="1" version="1.0"/>
+<refactoring comment="Copy 1 elements(s) to 'GridWorldProjects/src/critters'&#10;- Original project: 'minilabGridWorld'&#10;- Destination element: 'GridWorldProjects/src/critters'&#10;- Original element: 'CharmeleonKid.java'" description="Copy compilation unit" destination="/src&lt;critters" element1="/src&lt;{CharmeleonKid.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="/src&lt;{CharmeleonKid.java&#9;true&#9;false" policy="org.eclipse.jdt.ui.copyResources" stamp="1229437803721" units="1" version="1.0"/>
+</session>

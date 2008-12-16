@@ -18,7 +18,7 @@ public class Game
           
           int sizeConstant = 50;
 
-          final Grid g = new Grid(10);
+          final Grid g = new Grid(5);
           final GridComponent grid = new GridComponent(g, sizeConstant);
 
           final int FRAME_HEIGHT = 700;

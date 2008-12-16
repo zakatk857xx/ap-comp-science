@@ -1,0 +1,24 @@
+Section 10 - 6
+  methods are determined by the type of the actual object, not the type of the object reference
+  
+  10.1 - Abstract classes
+    mix between an interface and a superclass
+    contains written code like the superclass but cannot be instantiated
+    
+    Ex:
+    
+        public abstract class Shape
+        {
+            
+        }
+        
+Section 10 - 7
+
+    levels of access
+        *public, private, protected, package access
+        
+        protected: used w/ inheritance - allows a subclass to use an instance field or method from the superclass without referring to it as super or w/ privacy error
+        package access this is not a desirable result
+        
+        
+  

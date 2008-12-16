@@ -1,0 +1,18 @@
+import javax.swing.JFrame;
+
+public class DietzlerFrame
+{
+     public static void main(String args[])
+     {
+          JFrame frame = new JFrame("K.D.");
+          
+          DietzlerComponent2  d = new DietzlerComponent2("Kevin", 25, 0, 0);
+          
+          frame.add(d);
+          
+          frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+          frame.setBounds(250, 250, DietzlerComponent2.WIDTH, DietzlerComponent2.HEIGHT);
+          frame.setVisible(true);          
+     }
+
+}

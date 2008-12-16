@@ -1,0 +1,61 @@
+import javax.swing.*;
+import java.awt.Color;
+import java.util.*;
+
+public class Boxes
+{
+     public static void main(String [] argz)
+     {       
+          Random gen = new Random();
+          
+          ArrayList<MovingFrame> frames = new ArrayList<MovingFrame>();
+                   
+          final int RESOLUTION_X = 1440;
+          final int RESOLUTION_Y = 900; 
+          
+          for(int i = 0; i < 15; i++)
+          {
+               MovingFrame frame 
+                    = new MovingFrame(
+                         gen.nextInt(RESOLUTION_X),
+                         gen.nextInt(RESOLUTION_Y),
+                         80,
+                         100,
+                         20, 
+                         20,
+                         Color.RED,
+                         true);  
+               
+               frames.add(frame);
+          }
+          
+          while(true) 
+          {                           
+               for(int i = 0; i < frames.size(); i++)
+               {
+                    frames.get(i).move(); 
+                    
+                    if(frames.get(i).getX() >= RESOLUTION_X - 80 || frames.get(i).getX() <= 0)
+                         frames.get(i).invertDx();
+                    if(frames.get(i).getY() >= RESOLUTION_Y - 100 || frames.get(i).getY() <= 0)
+                         frames.get(i).invertDy();
+                    
+                    for(int j = 0; j < frames.size(); j++)
+                    {
+
+                         if(frames.get(i).bounds().intersects(frames.get(j).bounds()) && i != j)
+                         {
+                              frames.get(i).invertDx();
+                              frames.get(i).invertDy();
+                              frames.get(i).move(); 
+                              frames.get(j).invertDx();
+                              frames.get(j).invertDy();
+                              frames.get(j).move(); 
+                         }
+                         
+                    }
+                    
+               }
+          }
+     }
+}

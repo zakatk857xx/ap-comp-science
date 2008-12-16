@@ -1,7 +1,10 @@
-#Wed Sep 10 09:43:46 EDT 2008
-AbstractTextEditor.Color.Background=227,227,227
-spacesForTabs=true
-eclipse.preferences.version=1
+#Wed Dec 03 16:31:57 EST 2008
 AbstractTextEditor.Color.Background.SystemDefault=false
-overviewRuler_migration=migrated_3.1
 lineNumberRuler=true
+AbstractTextEditor.Color.SelectionBackground=255,242,166
+spacesForTabs=true
+lineNumberColor=0,0,0
+AbstractTextEditor.Color.Background=223,224,227
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+eclipse.preferences.version=1
+overviewRuler_migration=migrated_3.1

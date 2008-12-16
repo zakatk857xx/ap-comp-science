@@ -1,0 +1,38 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.*;
+
+public class DietzlerComponent2 extends JComponent
+{
+     public static final int WIDTH  =  80;
+     public static final int HEIGHT = 100;
+     
+     private int x, y, age;
+     private String name;
+          
+     public DietzlerComponent2(String n, int a, int xP, int yP)
+     {
+          name = new String(n);
+          age = a;
+          x = xP;
+          y = yP;          
+     }
+     
+     public String getName()       {return name;}
+     public int    getAge()        {return age;}
+     public void   happyBirthday() {age++;}
+     public void paintComponent(Graphics g)
+     {
+          Graphics2D g2 = (Graphics2D) g;
+          
+          g2.drawOval(x, y, 20, 20);
+          g2.drawLine(10 + x, 20 + y, 10 + x, 20 + y);
+          g2.drawLine(10 + x, 20 + y,  5 + x, 20 + y);
+          g2.drawLine(10 + x, 20 + y, 15 + x, 20 + y);
+          g2.drawLine(10 + x, 50 + y,  5 + x, 50 + y);
+          g2.drawLine(10 + x, 50 + y, 15 + x, 50 + y);
+          
+          g2.drawString(name + " Dietzler", x, y + 75);
+     }
+
+}
