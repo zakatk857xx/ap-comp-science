@@ -23,9 +23,9 @@ public class ChameleonKid extends ChameleonCritter2
           
           for(Actor e: actors)
           {
-               if(e.getLocation().equals(this.getLocation().getAdjacentLocation(this.getDirection() + Location.AHEAD)))
+               if(e.getLocation().equals(this.getLocation().getAdjacentLocation(Location.AHEAD)))
                     aN = e;
-               if(e.getLocation().equals(this.getLocation().getAdjacentLocation(this.getDirection() + Location.HALF_CIRCLE)))
+               if(e.getLocation().equals(this.getLocation().getAdjacentLocation(Location.HALF_CIRCLE)))
                     aS = e;
           }                    
           if (aN == null || aS == null)
