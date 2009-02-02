@@ -1,0 +1,22 @@
+
+import java.io.*;
+import java.util.*;
+
+public class FileReader
+{
+     public static void main(String args[])
+     {
+          Scanner console = new Scanner(System.in);
+          System.out.print("Input File: ");
+          String inputFileName = console.next();
+          System.out.print("Output File: ");
+          String outputFileName = console.next();
+          
+          FileIO reader = new FileIO(inputFileName);
+          Scanner in = new Scanner(reader);
+          
+          
+          
+     }
+
+}

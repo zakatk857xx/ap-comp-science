@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to 'Lab07/src/(default package)'&#10;- Original project: 'InputOutputFiles'&#10;- Destination element: 'Lab07/src/(default package)'&#10;- Original element: 'testRead.txt'" description="Copy file" destination="/src&lt;" element1="src/testRead.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="src/testRead.txt&#9;true&#9;false" policy="org.eclipse.jdt.ui.copyResources" stamp="1233606248307" units="0" version="1.0"/>
+<refactoring comment="Move 1 elements(s) to 'Lab07/src/(default package)'&#10;- Original project: 'InputOutputFiles'&#10;- Destination element: 'Lab07/src/(default package)'&#10;- Original element: 'testRead.txt'" description="Move file" destination="/src&lt;" element1="src/testRead.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1233608436539" units="0" version="1.0"/>
+</session>

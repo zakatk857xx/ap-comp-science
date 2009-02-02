@@ -1,0 +1,131 @@
+Monopoly
+$
+200 1500 50 7
+Violet
+Light Blue
+Magenta
+Orange
+Red
+Yellow
+Green
+Blue
+
+9
+Wheelbarrow
+Thimble
+Cannon
+Hat
+Boot
+Car
+Battleship
+Dog
+Horserider
+
+6
+GO!
+1
+Mediterranean Avenue
+60 30 0 2 10 30 90 160 250 50   
+4
+Community Chest
+1
+Baltic Avenue
+60 30 0 4 20 60 180 320 450 50
+10
+Income Tax
+2
+Reading Railroad
+200 100   
+1
+Oriental Avenue
+100 50 1 6 30 90 270 400 550 50
+5
+Chance
+1
+Vermont Avenue
+100 50 1 6 30 90 270 400 550 50
+1
+Connecticut Avenue
+120 60 1 8 40 100 300 450 600 50
+8
+In Jail/Just Visiting
+1
+St. Charles Place
+140 70 2 10 50 150 450 625 750 100
+3
+Electric Company
+150 75
+1
+States Avenue
+140 70 2 10 50 150 450 625 750 100
+1
+Virginia Avenue
+160 80 2 12 60 180 500 700 900 100
+2
+Pennsylvania Railroad
+200 60
+1
+St. James Place
+180 90 3 14 70 200 550 750 950 100
+4
+Community Chest
+1
+Tennessee Avenue
+180 90 3 14 70 200 550 750 950 100
+1
+New York Avenue
+200 100 3 16 80 220 600 800 1000 100
+8
+Free Parking
+1
+Kentucky Avenue
+220 110 4 18 90 250 700 875 1050 150
+5
+Chance
+1
+Indiana Avenue
+220 110 4 18 90 250 700 875 1050 150
+1
+Illinois Avenue
+240 110 4 18 90 250 700 875 1050 150
+3
+B.& O. Railroad
+200 100
+1
+Atlantic Avenue
+260 130 5 22 110 330 800 975 1150 150
+1
+Ventnor Avenue
+260 130 5 22 110 330 800 975 1150 150
+3
+Water Works
+150 75
+1
+Marvin Gardens
+280 140 5 24 120 360 850 1025 1200 150
+9
+Go To Jail
+1
+Pacific Avenue
+300 150 6 26 130 390 900 1100 1275 200
+1
+North Carolina Avenue
+300 150 6 26 130 390 900 1100 1275 200
+4
+Community Chest
+1
+Pennsylvania Avenue
+320 160 6 28 150 450 1000 1200 1400 200
+2
+Short Line Railroad
+200 100
+5
+Chance
+1
+Park Place
+350 175 7 35 175 500 1100 1300 1500 200
+11
+Luxury Tax
+1
+Boardwalk
+400 200 7 50 200 600 1400 1700 2000 200

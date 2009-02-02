@@ -11,9 +11,9 @@
 	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_y" value="22"/>
 	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
+	<item key="UserLibraryLoadSaveDialog.size" value="480,442"/>
 	<item key="org.eclipse.jdt.ui.codeformatter.savepath" value="/Volumes/MOOGAN"/>
 	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_height" value="743"/>
-	<item key="UserLibraryLoadSaveDialog.size" value="480,442"/>
 	<section name="JavaBuildConfigurationBlock">
 		<item key="expanded2" value="false"/>
 		<item key="expanded1" value="false"/>
@@ -44,6 +44,9 @@
 		<item key="linkWithEditor" value="false"/>
 		<item key="layout" value="2"/>
 		<item key="group_libraries" value="true"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_BOUNDS" value="false"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>

@@ -1,0 +1,102 @@
+Chapter 11 - Input/Output and Exception Handling
+    Section 11.2 - Throwing Exceptions
+        (*) Exception handling in Java provides a flexible mechanism for passing control from the point of error reporting to a competent recovery handler
+        (*) The keyword throw and a throw statement is used when an exception occurs that we want the user to be aware of
+        (*) Exception Class Hierarchy
+            
+                            Throwable
+                                |
+                           -------------
+                           |           |
+                         Error     Exception
+                                       |
+                         ----------------------------------
+                         |                                |
+                    IOException                    RuntimeException
+                         |                                |
+                         |--EOFException                  |--ArithmeticException
+                         |                                |
+                         |--FileNotFoundException         |--ClassCastException
+                         |                                |
+                         |--MalformedURLException         |--IllegalArgumentException
+                         |                                |            |
+                         |--UnknownHostExcption           |            |--NumberFormatException
+                                                          |
+                                                          |--IllegalStateException
+                                                          |
+                                                          |--IndexOutOfBoundsException
+                                                          |            |
+                                                          |            |--ArrayIndexOutOfBoundsException 
+                                                          |
+                                                          |--NoSuchElementException 
+                                                          |            |
+                                                          |            |--InputMismatchException 
+                                                          |
+                                                          |--NullPointerException
+    Section 11.3 - Checked and Unchecked Exceptions
+        (*) Unchecked Exceptions - extend the class RuntimeException or Error. The Compiler does not require us to keep track of these
+        (*) Checked Exceptions - due to external circumstances that a programmer cannot prevent. The compiler checks that your program handles these exceptions. Includes all subclasses of IOException.
+        (*) Handling Checked Exceptions
+            - To declare that a method be terminated when a checked exception occurs within it, tag the method with a throws specifier.
+    
+    Section 11.4 - Catching Exceptions
+        (*) Try/Catch Blocks
+            - In a method ready to handle a particular exception type, place the code that can cause the exception in a try block and the code to remedy the situation in the catch block
+            - Can put as many catch blocks as you want after a try block, but each must catch a different exception
+    
+    Section 11.5 - Finally Clause
+        (*) While reading from a file, an exception occurs due to bad data or an unexpected end of file. We can catch these exceptions and handle them properly.  However there's a chance an unexpected exception will occur. Before Moving on safely, we must close the file.  To ensure that this occurs no matter what the exception, we use a finally clause 
+        (*) Example:
+        
+                PrintWriter out = new PrintWriter(filename)
+        
+                try
+                {
+                    writeData(out); //throws BadDataException...
+                }
+                catch (BadDataException e)
+                {
+                    e.printStackTrace();
+                }
+                finally
+                {
+                    out.close();
+                }
+                
+    Section 11.6 - Designing Your Own Exceptions
+        (*) Our exceptions must extend Exception or RuntimeException
+        (*) Example:
+        
+                public class NotForTehLulzException extends RuntimeException
+                {
+                    public NotForTehLulzException() {}
+                    public NotForTehLulzException(String message) 
+                    {
+                        super(message);
+                    }
+                }
+            
+        (*) When this exception occurs, we say:
+                
+                throw new NotForTehLulzException("must do all thingz fer teh lulz!!!111!!1!1!!111!!!LOLSYMETRY");
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    
+                                                          
+                                                          
+                                                          

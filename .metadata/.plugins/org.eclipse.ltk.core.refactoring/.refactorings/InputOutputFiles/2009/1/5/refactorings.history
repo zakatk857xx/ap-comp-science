@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename type 'FileReader' to 'FileIO'&#10;- Original project: 'InputOutputFiles'&#10;- Original element: 'FileReader'&#10;- Renamed element: 'FileIO'&#10;- Update references to refactored element&#10;- Update textual occurrences in comments and strings" description="Rename type 'FileReader'" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{FileReader.java[FileReader" matchStrategy="1" name="FileIO" qualified="false" references="true" similarDeclarations="false" stamp="1233326569959" textual="false" version="1.0"/>
+</session>

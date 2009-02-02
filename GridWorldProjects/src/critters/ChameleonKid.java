@@ -35,23 +35,14 @@ public class ChameleonKid extends ChameleonCritter2
           }
           else
           {
-               System.out.println("Got here! (0)"); 
+               //System.out.println("Got here! (0)"); 
                
                switch((int)(Math.random() * 2))
                {
-                    case 0: setColor(aN.getColor()); System.out.println("Got here! (1)"); break;
-                    case 1: setColor(aS.getColor()); System.out.println("Got here! (2)"); break;
+                    case 0: setColor(aN.getColor()); break; //System.out.println("Got here! (1)"); break;
+                    case 1: setColor(aS.getColor()); break; //System.out.println("Got here! (2)"); break;
                }
           }
                 
-     }
-
-     /**
-      * Turns towards the new location as it moves.
-      */
-     public void makeMove(Location loc)
-     {
-          setDirection(getLocation().getDirectionToward(loc));
-          super.makeMove(loc);
      }
 }
