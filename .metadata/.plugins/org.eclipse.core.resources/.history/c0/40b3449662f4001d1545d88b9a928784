@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class P11_11
+{
+     public static void main(String args)
+     {
+          Scanner in = new Scanner(System.in);
+          
+          try
+          {
+               readNextFloat(in);               
+          }
+          catch(BadFloatException e)
+          {
+               
+          }
+     }
+
+     public static float readNextFloat(Scanner in) throws BadFloatException
+     {
+          return Float.parseFloat(in.nextLine());
+     }
+
+}

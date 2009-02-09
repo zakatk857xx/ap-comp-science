@@ -32,7 +32,10 @@ public class P11_2
                {
                     lines++;
                     doccument += in.nextLine().trim() + " ";
-                    if(doccument.length() > doccument.trim().length() + 1)
+                    
+                    
+                    
+                    if(doccument.length() > )
                          words--;
                     //chars--;
                     //System.out.println(doccument);

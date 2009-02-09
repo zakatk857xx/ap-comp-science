@@ -1,0 +1,16 @@
+
+public class RecursionTest01
+{
+     public static void main(String [] args)
+     {
+          System.out.println(getArea(3));          
+     }
+     
+     public static int getArea(int n)
+     {
+          if(n == 1)
+               return 1;
+          else
+               return n + getArea(n-1);
+     }
+}

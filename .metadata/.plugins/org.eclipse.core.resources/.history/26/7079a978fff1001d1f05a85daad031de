@@ -1,0 +1,15 @@
+
+public class RecursionTest01
+{
+     public static void main(String [] args)
+     {
+          for(int i = 0; i < 10; i++)
+               System.out.println(getArea(i));          
+     }
+     
+     public static int getArea(int n)
+     {
+          if(n == 1) return 1;
+          else       return n + getArea(n-1);
+     }
+}

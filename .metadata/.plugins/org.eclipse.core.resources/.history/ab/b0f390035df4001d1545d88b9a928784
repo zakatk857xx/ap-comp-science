@@ -1,0 +1,21 @@
+
+public class Loop
+{
+     public static void main(String args[])
+     {
+          addStuff({0.0, 3.3});
+          
+     }
+     
+     public static double addStuff(double [] a)
+     {
+          double balance = 0;
+          
+          for(int j = 0; j < 3; j++)
+          {
+               balance += a[j];
+          }
+          
+          return balance;
+     }
+}

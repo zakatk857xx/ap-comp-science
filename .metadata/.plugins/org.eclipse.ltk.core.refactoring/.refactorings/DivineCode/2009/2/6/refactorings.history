@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Rename type 'RecusionTest02' to 'RecursionTest02'&#10;- Original project: 'DivineCode'&#10;- Original element: 'RecusionTest02'&#10;- Renamed element: 'RecursionTest02'&#10;- Update references to refactored element&#10;- Update textual occurrences in comments and strings" description="Rename type 'RecusionTest02'" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{RecusionTest02.java[RecusionTest02" matchStrategy="1" name="RecursionTest02" qualified="false" references="true" similarDeclarations="false" stamp="1233844338644" textual="false" version="1.0"/>
+</session>

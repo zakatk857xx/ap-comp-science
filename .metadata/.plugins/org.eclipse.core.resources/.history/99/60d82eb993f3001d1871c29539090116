@@ -1,0 +1,36 @@
+
+import java.util.*;
+
+public class RecursionTest02
+{
+     public static void main(String [] args)
+     {
+          System.out.println(permutate("Dog"));
+     }
+     
+     public static ArrayList<String> permutate(String n)
+     {
+          ArrayList<String> result = new ArrayList<String>();
+          
+          if(n.length() == 0) { result.add(""); return result; }
+          if(n.length() == 1) { result.add(n);  return result; }
+          else
+          {
+               for (int i = 0; i < n.length(); i++)
+               {
+                  String shorterWord = n.substring(0, i)
+                        + n.substring(i + 1);
+                  
+                  ArrayList<String> shorterResult = new ArrayList<String>();
+                  shorterResult = permutate(shorterWord);
+                  
+                  for(String e : shorterResult)
+                  {
+                       result.add(e);
+                  }
+               }
+               
+               return result;               
+          }
+     }
+}
