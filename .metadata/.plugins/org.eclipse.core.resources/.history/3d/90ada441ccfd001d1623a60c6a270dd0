@@ -1,0 +1,358 @@
+/**
+ *    The TowersOfHanoi class is designed to create an Applet illustrating
+ *    the solution to the popular Towers of Hanoi problem.
+ *    <br>
+ *    Date: 2/6/08
+ * 
+ *    @author Mr. Dietzler
+ *
+ */
+
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.event.KeyListener;
+import java.awt.event.KeyEvent;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+
+public class TowersOfHanoi extends Applet implements Runnable, KeyListener
+{
+   //These variables represent the sizes and locations of the key elements
+   public static final double TOWER_WIDTH = 10;
+   public static final double TOWER_HEIGHT = 200;
+   public static final double TOWER_Y = 150;
+   public static final double DISC_WIDTH = 30.0;
+   public static final double DISC_HEIGHT = 20.0;
+   public static final double DISC_WIDTH_FACTOR = 10.0;
+   public static final double BASE_X = 100;
+   public static final double BASE_Y = 350;
+   public static final double BASE_WIDTH = 400;
+   public static final double BASE_HEIGHT = 30;
+   //We use this array to ensure that the discs are different colors.
+   public static final Color[] COLORS = {Color.RED, Color.BLUE, Color.GREEN,
+      Color.CYAN, Color.DARK_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK,
+      Color.LIGHT_GRAY, Color.YELLOW};
+   
+   //This ArrayList will store the moves in chronological order to solve
+   // the puzzle.
+   private ArrayList<DiscMove> moves;
+   
+   //This ArrayList will store the 3 Tower objects
+   private ArrayList<Tower> towers;
+   
+   //The base of the 3 towers.
+   private Rectangle2D.Double base;
+   
+   //When it comes time to moves the discs, this variable identifies
+   // which disc to move.
+   private Disc discToMove;
+   
+   //numDiscs tells how many discs to have in the puzzle and move tells us
+   // the current move we are on to figure out how many moves it takes to
+   // solve.
+   private int numDiscs, move;
+   
+   //This thread controls the animation.
+   private Thread hanoiAnimator;
+   
+   //delay(in milliseconds) will control the step by step
+   // animation delay.  The value can be altered by hitting
+   // the up and down arrows on the keyboard.
+   private int delay;
+   
+   
+   /**
+    *  This method initializes the applet to its beginning state.
+    */
+   public void init()
+   {
+      moves = new ArrayList<DiscMove>();
+      towers = new ArrayList<Tower>();
+      
+      move = 0; //so we start on move # 1
+      numDiscs = 5; //CHANGE THIS FOR DIFFERENT PUZZLE SIZES
+      delay = 10; //milliseconds
+      discToMove = null; //this is because we haven't begun moving the discs
+      
+      //Loop through and initialize the 3 towers
+      for (int i = 0; i < 3; i++)
+      {
+         towers.add (new Tower (i, ((this.getWidth() * ((i + 1)/4.0)) - (TOWER_WIDTH/2.0)),
+                                TOWER_Y, TOWER_WIDTH, TOWER_HEIGHT));
+      }//end for
+      
+      //Initialize the base
+      base = new Rectangle2D.Double (BASE_X, BASE_Y, BASE_WIDTH, BASE_HEIGHT);
+      
+      //The start tower is always index 0
+      Tower startTower = towers.get(0);
+      
+      //Loop through and initialize the discs on the leftmost tower
+      //Note: Discs are stored biggest to smallest
+      for (int i = (numDiscs - 1); i >= 0; i--)
+      {
+         startTower.addDisc (new Disc (i,
+                                       (startTower.getX() +
+                                          (startTower.getWidth()/2.0)),
+                                       ((startTower.getY() + startTower.getHeight()) -
+                                          (DISC_HEIGHT * (numDiscs - i))),
+                                       DISC_WIDTH + (i * DISC_WIDTH_FACTOR),
+                                       DISC_HEIGHT,
+                                       COLORS[i]));
+      }//end for
+      
+      //Set the Applet up to detect keyboard input
+      this.setFocusable(true);
+      this.addKeyListener(this);
+      
+   }//end init method
+   
+   
+   /**
+    *  The start method is called after the init method is complete
+    */
+   public void start()
+   {
+      //begin the thread
+      hanoiAnimator = new Thread(this);
+      hanoiAnimator.start();
+   }//end start method
+   
+   
+   /**
+    * This method is called after the applet window is closed.
+    */
+   public void stop()
+   {
+      hanoiAnimator = null;
+   }//end stop method
+   
+   
+   /**
+    * The paint method displays everything on the screen in its
+    * current state
+    * 
+    * @param this Graphics object is used to display objects in
+    * the applet.
+    */
+   public void paint(Graphics g)
+   {
+      //recover Graphics2D
+      Graphics2D g2 =(Graphics2D)g;
+      
+      g2.setColor(Color.BLACK);
+      g2.drawString(new String("Move # " + move),2,20);
+      g2.fill (base);
+      
+      //loop through each Tower to display it and its discs (if any)
+      for (int i = 0; i < towers.size(); i++)
+      {
+         g2.setColor(Color.BLACK);
+         Tower curTower = towers.get(i);
+         g2.fill(curTower);
+         
+         //loop through and display all the discs on this Tower (if any)
+         for (int j = 0; j < curTower.getNumDiscs (); j++)
+         {
+            Disc curDisc = curTower.peekDisc (j);
+            g2.setColor(Color.BLACK);
+            g2.draw (curDisc);
+            g2.setColor (curDisc.getColor());
+            g2.fill (curDisc);
+         }//end inner for to display discs
+         
+      }//end outer for to display towers
+      
+      //display the disc to move if the move process has begun
+      if (discToMove != null)
+      {
+         g2.setColor(Color.BLACK);
+         g2.draw (discToMove);
+         g2.setColor (discToMove.getColor());
+         g2.fill (discToMove);
+      }//end if
+      
+   }//end paint method
+   
+   
+   /**
+    * The run method handles the solving of the Towers of Hanoi
+    * puzzle and animation of the solution.
+    */
+   public void run()
+   {
+      //All the variables help in the animation process
+      DiscMove nextMove;
+      Tower from, to;
+      boolean complete = false;
+      boolean moveLeft = false;
+      
+      /*
+       * HERE IS WHERE THE RECURSION TAKES PLACE TO SOLVE THE PUZZLE 
+       */
+      DiscMover mover = new DiscMover(0, 2, numDiscs);
+      while (mover.hasMoreMoves())
+         moves.add (mover.nextMove());
+      
+      
+      //Check that the current thread is still our hanoiAnimator and 
+      // that the puzzle is not complete.
+      while(Thread.currentThread() == hanoiAnimator && !complete)
+      {
+         for (int m = 0; m < moves.size(); m++)
+         {
+            move++; //increment the move number
+            nextMove = moves.get(m); //get the next move to make
+            from = towers.get (nextMove.getTowerFrom());
+            to = towers.get (nextMove.getTowerTo());
+            //We will be moving the top-most disc from the 'from' Tower
+            // so remove it from that Tower accordingly
+            discToMove = from.removeDisc (from.getNumDiscs() - 1);
+            
+            //Animate the disc up
+            for (int i = (int)discToMove.getY();
+                 i >= ((int)from.getY() - (DISC_HEIGHT * 2.0));
+                 i--)
+            {
+               discToMove.setFrame (discToMove.getX (),
+                                    discToMove.getY () - 1,
+                                    discToMove.getWidth(),
+                                    discToMove.getHeight());
+               
+               repaint();
+               try
+               {
+                  Thread.sleep(delay);
+               }
+               catch(InterruptedException e)
+               {
+                  break;
+               }
+            }//end for to move up
+            
+            //Check if the 'to' Tower is to to the right of left of the
+            // 'from' Tower.
+            if (nextMove.getTowerTo() < nextMove.getTowerFrom ())
+               moveLeft = true;
+            else
+               moveLeft = false;
+            
+            //Animate the disc left or right accordingly
+            if (moveLeft)
+            {
+               for (int i = (int)discToMove.getX();
+                    i >= (((int)to.getX() + (int)to.getWidth()/2) - ((int)discToMove.getWidth() / 2));
+                    i--)
+               {
+                  discToMove.setFrame (discToMove.getX () - 1,
+                                       discToMove.getY (),
+                                       discToMove.getWidth(),
+                                       discToMove.getHeight());
+                  
+                  repaint();
+                  try
+                  {
+                     Thread.sleep(delay);
+                  }
+                  catch(InterruptedException e)
+                  {
+                     break;
+                  }
+               }//end for to move left
+            }//end if
+            else
+            {
+               for (int i = (int)discToMove.getX();
+                    i <= (((int)to.getX() + (int)to.getWidth()/2) - ((int)discToMove.getWidth() / 2));
+                    i++)
+               {
+                  discToMove.setFrame (discToMove.getX () + 1,
+                                       discToMove.getY (),
+                                       discToMove.getWidth(),
+                                       discToMove.getHeight());
+                  
+                  repaint();
+                  try
+                  {
+                     Thread.sleep(delay);
+                  }
+                  catch(InterruptedException e)
+                  {
+                     break;
+                  }
+               }//end for to move right
+            }//end else
+            
+            //Animate the disc back down
+            for (int i = (int)discToMove.getY();
+                 i <= (((int)to.getY() + (int)to.getHeight() - (to.getNumDiscs ()+1)* DISC_HEIGHT));
+                 i++)
+            {
+               discToMove.setFrame (discToMove.getX (),
+                                    discToMove.getY () + 1,
+                                    discToMove.getWidth(),
+                                    discToMove.getHeight());
+               
+               repaint();
+               try
+               {
+                  Thread.sleep(delay);
+               }
+               catch(InterruptedException e)
+               {
+                  break;
+               }
+            }//end for to move down
+            
+            //Add the disc that was moved to the Towed it moved 'to'.
+            to.addDisc (discToMove);
+            
+            //Have the Thread sleep for 100 milliseconds.
+            try
+            {
+               Thread.sleep(100);
+            }
+            catch(InterruptedException e)
+            {
+               break;
+            }
+         }//end BIG for to loop through the moves
+         
+         complete = true;
+      }//end while
+   }//end run method
+   
+   
+   //The following methods control the keyboard input.
+   public void keyPressed(KeyEvent e)
+   {
+      //This code checks a key was pressed was one of
+      // the up or down arrow keys.
+      if(e.getKeyCode() == KeyEvent.VK_UP)
+      {
+         delay ++;
+         if (delay > 10)
+         {
+            delay = 10;
+         }
+      }
+      else if(e.getKeyCode() == KeyEvent.VK_DOWN)
+      {
+         delay --;
+         if (delay < 0)
+         {
+            delay = 0;
+         }
+      }
+      
+   }
+   
+   public void keyReleased(KeyEvent e)
+   {}
+   
+   public void keyTyped(KeyEvent e)
+   {}
+   
+}//end TowersOfHanoi class

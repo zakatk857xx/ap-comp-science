@@ -1,0 +1,50 @@
+
+public class Palindrome
+{
+     public static void main(String [] beans)
+     {
+          word = "da man a plan a canal Panama";
+          
+          System.out.println(isPalindrome(0, word.length() - 1));
+     }
+     
+     public static boolean isPalindrome(int start, int end)
+     {
+          if(start >= end) return true;
+          
+          char first = Character.toUpperCase(word.charAt(start));
+          char last  = Character.toUpperCase(word.charAt(end));
+          
+          System.out.println("FIRST: " + first + "\nLAST: " + last);
+          System.out.println(Character.isLetter(first));
+          System.out.println(Character.isLetter(first));
+          
+          if(Character.isLetter(first) && Character.isLetter(last))
+          {
+               System.out.println("FIRST: " + first + "\nLAST: " + last);
+               
+               if(first == last)
+                    return isPalindrome(start+1, end-1);
+               else
+                    return false;
+          }
+          
+          while(!Character.isLetter(first))
+          {
+               start++;
+               first = Character.toUpperCase(word.charAt(start));
+               System.out.println(word.subSequence(start, end+1));
+          }
+          while(!Character.isLetter(last))
+          {
+               end--;
+               last = Character.toUpperCase(word.charAt(end));
+               System.out.println(word.subSequence(start, end+1));
+          }
+
+          System.out.println(word.subSequence(start, end+1));
+          return isPalindrome(start+1, end-1);
+     }
+     
+     private static String word;
+}

@@ -1,0 +1,23 @@
+
+public class mys
+{
+     public static void main(String [] args)
+     {
+          mystery(3);
+     }
+     
+     public static void mystery(int n)
+     {
+          for(int i = 0; i + 2 < n; i++)
+               System.out.print("  ");
+          System.out.println("M(" + n + ")");
+          
+          if(n > 0)
+          {
+               mystery(n - 1);
+               System.out.print(n);
+               mystery(n - 1);
+          }          
+     }
+
+}

@@ -1,0 +1,91 @@
+public class DiscMover
+{
+   //Attributes to be declared:
+     private int state;
+     private int to;
+     private int from;
+     private int numDiscs;
+     private DiscMover smallerMover;
+   
+     //4 states (final static): BEFORE_LARGEST, LARGEST, AFTER_LARGEST, DONE
+     public static final int BEFORE_LARGEST = 0;
+     public static final int LARGEST = 1;
+     public static final int AFTER_LARGEST = 2;
+     public static final int DONE = 3;
+   
+   public DiscMover (int f, int t, int num)
+   {
+      //initialize attributes
+        state = BEFORE_LARGEST;
+        from = f;
+        to = t;
+        numDiscs = num;
+      //figure out the index of the 'other' tower (int) (other = 3 - to - from)
+      int other = 3 - to - from;
+      
+      if(numDiscs > 1)
+           smallerMover = new DiscMover (from, other, numDiscs - 1);
+      //initialize the smallerMove object using from, other & num discs - 1
+   }
+   
+   
+   public boolean hasMoreMoves()
+   {
+        return (state != DONE);
+   }
+   
+   
+   public DiscMove nextMove()
+   {
+      //BASE CASE: if the number of discs is one
+        //Set the state to DONE
+        //return a new DiscMove (from, to)
+        
+        if(numDiscs == 1)
+        {
+             state = DONE;
+             return new DiscMove(from, to);
+        }
+        
+      //Next: if the state is LARGEST
+        //Set the state to AFTER_LARGEST
+        //figure out the index of the 'other' tower (int) (other = 3 - to - from)
+        //initialize the smallerMove object using from, other & num discs - 1
+        //return a new DiscMove (from, to)
+        else if(state == LARGEST)
+        {
+             System.out.println("LARGEST MOVE");
+             
+             state = AFTER_LARGEST;
+             int other = 3 - to - from;
+             smallerMover = new DiscMover (from, other, numDiscs - 1);
+             return new DiscMove(from, to);
+        }
+      
+      //initialize a DiscMove and set it equal to smallerMove.nextMove()
+        DiscMove move = smallerMover.nextMove();
+      
+      //Finally: If  the 'smallerMove' DiscMover does NOT have more moves
+        if (!smallerMover.hasMoreMoves())
+        {
+             if(state == BEFORE_LARGEST)
+             {
+                  state = LARGEST;
+             }
+             else
+             {
+                  state = DONE;
+             }
+        }
+        //if the state is BEFORE_LARGEST
+          //set the state to LARGEST
+        //else
+          //set the state to DONE
+        //return the DiscMove you initialized on line 41
+        
+        System.out.println(move);
+        return move;
+      
+   }//end nextMove method
+   
+}//end DiscMover class   
