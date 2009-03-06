@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to 'Lab09/mergesort/(default package)'&#10;- Original project: 'CH14'&#10;- Destination element: 'Lab09/mergesort/(default package)'&#10;- Original element: 'MergeSorter.java'" description="Copy compilation unit" destination="/mergesort&lt;" element1="/mergesort&lt;{MergeSorter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" log="/mergesort&lt;{MergeSorter.java&#9;true&#9;false" policy="org.eclipse.jdt.ui.copyResources" stamp="1236371978929" units="1" version="1.0"/>
+</session>
