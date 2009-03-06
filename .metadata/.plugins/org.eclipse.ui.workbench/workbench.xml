@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="30" version="2.0">
 <workbenchAdvisor/>
-<window height="838" minimized="true" width="1425" x="0" y="22">
+<window height="838" width="1425" x="0" y="22">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="ocaml.ocamlBrowserView"/>
 </fastViewData>
@@ -38,31 +38,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Disc.java" partName="Disc.java" path="/Users/tzaki/java/Lab08/src/Disc.java" title="Disc.java" tooltip="Lab08/src/Disc.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab08/src/Disc.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="612"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSortDemo.java" partName="SelectionSortDemo.java" path="/Users/tzaki/Desktop/Ch14SourceCode copy/selsort/SelectionSortDemo.java" title="SelectionSortDemo.java" tooltip="Lab09/selsort/SelectionSortDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab09/selsort/SelectionSortDemo.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="402"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiscMove.java" partName="DiscMove.java" path="/Users/tzaki/java/Lab08/src/DiscMove.java" title="DiscMove.java" tooltip="Lab08/src/DiscMove.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab08/src/DiscMove.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="215"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MergeSorter.java" partName="MergeSorter.java" path="/Users/tzaki/Desktop/Ch14SourceCode copy/mergesort/MergeSorter.java" title="MergeSorter.java" tooltip="Lab09/mergesort/MergeSorter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab09/mergesort/MergeSorter.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="443"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiscMover.java" partName="DiscMover.java" path="/Users/tzaki/java/Lab08/src/DiscMover.java" title="DiscMover.java" tooltip="Lab08/src/DiscMover.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab08/src/DiscMover.java"/>
-<editorState selectionHPixel="0" selectionLength="25" selectionOffset="2546"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" partName="Tower.java" path="/Users/tzaki/java/Lab08/src/Tower.java" title="Tower.java" tooltip="Lab08/src/Tower.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab08/src/Tower.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="4"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TowersOfHanoi.java" partName="TowersOfHanoi.java" path="/Users/tzaki/java/Lab08/src/TowersOfHanoi.java" title="TowersOfHanoi.java" tooltip="Lab08/src/TowersOfHanoi.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab08/src/TowersOfHanoi.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2286"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSorter.java" partName="SelectionSorter.java" path="/Users/tzaki/Desktop/Ch14SourceCode copy/selsort/SelectionSorter.java" title="SelectionSorter.java" tooltip="Lab09/selsort/SelectionSorter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab09/selsort/SelectionSorter.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2206"/>
 </editor>
 </editors>
 <views>
@@ -157,7 +147,7 @@
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<viewState columnWidth0="473" columnWidth1="99" columnWidth2="174" columnWidth3="84" columnWidth4="0" horizontalPosition="0" verticalPosition="18">
 <columnOrder columnOrderIndex="0"/>
 <columnOrder columnOrderIndex="1"/>
 <columnOrder columnOrderIndex="2"/>
@@ -285,7 +275,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@db85f9" ratio="0.55965906" ratioLeft="394" ratioRight="310" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@db85f9" ratio="0.7546419" ratioLeft="569" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -416,164 +406,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/Disc.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/DiscMove.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/DiscMover.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/TowersOfHanoi.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/DiscMove.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/DiscMover.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/Tower.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08/src/TowersOfHanoi.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/insertionsort/InsertionSorter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/insertionsort/InsertionSortDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/selsort/SelectionSortDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/insertionsort/InsertionSorter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/selsort/SelectionSorter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CH14/selsort/SelectionSortTimer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/CH14/ch14nots"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/quicksort/QuickSorter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/selsort/SelectionSortDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/selsort/SelectionSorter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/quicksort/QuickSortDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09/mergesort/MergeSorter.java"/>
 </editors>
-<item historyLabel="TowersOfHanoi.java" index="3">
-<position info="not_deleted" x="11234" y="0"/>
+<item historyLabel="SelectionSortDemo.java" index="2">
+<position info="not_deleted" x="245" y="313"/>
 </item>
-<item historyLabel="DiscMove.java" index="1">
+<item historyLabel="InsertionSorter.java" index="0">
+<position info="not_deleted" x="617" y="0"/>
+</item>
+<item historyLabel="SelectionSortDemo.java" index="2">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="InsertionSortDemo.java" index="1">
 <position/>
 </item>
-<item historyLabel="DiscMover.java" index="2">
-<position info="not_deleted" x="1832" y="0"/>
+<item historyLabel="InsertionSorter.java" index="3">
+<position info="not_deleted" x="4" y="0"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="3">
-<position info="not_deleted" x="11234" y="0"/>
+<item historyLabel="InsertionSorter.java" index="3">
+<position info="not_deleted" x="315" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="2">
-<position info="not_deleted" x="1289" y="0"/>
+<item historyLabel="SelectionSorter.java" index="4">
+<position info="not_deleted" x="5" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="1">
+<item historyLabel="InsertionSorter.java" index="3">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="SelectionSortTimer.java" index="5">
+<position info="not_deleted" x="414" y="0"/>
+</item>
+<item historyLabel="ch14nots" index="6">
 <position/>
 </item>
-<item historyLabel="DiscMover.java" index="2">
-<position info="not_deleted" x="1289" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="988" y="0"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="3">
-<position info="not_deleted" x="11234" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="Disc.java" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="539" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="535" y="0"/>
+</item>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="655" y="1"/>
+</item>
+<item historyLabel="QuickSorter.java" index="7">
 <position/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1289" y="0"/>
-</item>
-<item historyLabel="Tower.java" index="6">
-<position info="not_deleted" x="4" y="0"/>
-</item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="4" y="0"/>
-</item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="11234" y="0"/>
-</item>
-<item historyLabel="Tower.java" index="6">
-<position info="not_deleted" x="4" y="0"/>
-</item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="11234" y="0"/>
-</item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1289" y="0"/>
-</item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="2014" y="0"/>
-</item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1670" y="0"/>
-</item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1624" y="0"/>
-</item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="11234" y="0"/>
-</item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1673" y="0"/>
-</item>
-<item historyLabel="DiscMove.java" index="4">
+<item historyLabel="SelectionSortDemo.java" index="8">
 <position/>
 </item>
-<item historyLabel="Tower.java" index="6">
-<position info="not_deleted" x="4" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="776" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="2569" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2550" y="88"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="577" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="641" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2550" y="88"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="11234" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="451" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="641" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="2569" y="0"/>
+<item historyLabel="SelectionSortDemo.java" index="8">
+<position/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="2486" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position/>
 </item>
-<item historyLabel="Disc.java" index="0">
-<position info="not_deleted" x="612" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2550" y="88"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="2569" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="734" y="0"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="2486" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="Disc.java" index="0">
-<position info="not_deleted" x="612" y="0"/>
+<item historyLabel="SelectionSortDemo.java" index="8">
+<position info="not_deleted" x="558" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="2569" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="470" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="676" y="0"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="2486" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position info="not_deleted" x="338" y="0"/>
 </item>
-<item historyLabel="Disc.java" index="0">
-<position info="not_deleted" x="612" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="676" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="SelectionSortDemo.java" index="8">
+<position info="not_deleted" x="558" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1816" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position info="not_deleted" x="286" y="0"/>
 </item>
-<item historyLabel="TowersOfHanoi.java" index="7">
-<position info="not_deleted" x="2286" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2550" y="88"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="QuickSorter.java" index="7">
+<position info="not_deleted" x="676" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1816" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2550" y="88"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="QuickSortDemo.java" index="10">
+<position info="not_deleted" x="286" y="0"/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1816" y="0"/>
+<item historyLabel="SelectionSortDemo.java" index="8">
+<position info="not_deleted" x="558" y="0"/>
 </item>
-<item historyLabel="DiscMove.java" index="4">
-<position info="not_deleted" x="215" y="0"/>
+<item historyLabel="MergeSorter.java" index="11">
+<position/>
 </item>
-<item historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1816" y="0"/>
+<item historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2655" y="23"/>
 </item>
-<item historyLabel="Disc.java" index="0">
-<position info="not_deleted" x="612" y="0"/>
+<item historyLabel="MergeSorter.java" index="11">
+<position info="not_deleted" x="428" y="0"/>
 </item>
-<item active="true" historyLabel="DiscMover.java" index="5">
-<position info="not_deleted" x="1816" y="0"/>
+<item historyLabel="MergeSorter.java" index="11">
+<position/>
+</item>
+<item historyLabel="MergeSorter.java" index="11">
+<position/>
+</item>
+<item historyLabel="MergeSorter.java" index="11">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="MergeSorter.java" index="11">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="SelectionSortDemo.java" index="8">
+<position info="not_deleted" x="402" y="0"/>
+</item>
+<item historyLabel="MergeSorter.java" index="11">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item active="true" historyLabel="SelectionSorter.java" index="9">
+<position info="not_deleted" x="2655" y="23"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -592,50 +586,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="KeyListener.class" tooltip="java.awt.event.KeyListener">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Lab08/\/System\/Library\/Frameworks\/JavaVM.framework\/Versions\/1.5.0\/Classes\/classes.jar&lt;java.awt.event(KeyListener.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSorter.java" tooltip="Lab09/selsort/SelectionSorter.java">
+<persistable path="/Lab09/selsort/SelectionSorter.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TowersOfHanoi.java" tooltip="Lab08/src/TowersOfHanoi.java">
-<persistable path="/Lab08/src/TowersOfHanoi.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MergeSorter.java" tooltip="Lab09/mergesort/MergeSorter.java">
+<persistable path="/Lab09/mergesort/MergeSorter.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" tooltip="Lab08/src/Tower.java">
-<persistable path="/Lab08/src/Tower.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSortDemo.java" tooltip="Lab09/selsort/SelectionSortDemo.java">
+<persistable path="/Lab09/selsort/SelectionSortDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiscMover.java" tooltip="Lab08/src/DiscMover.java">
-<persistable path="/Lab08/src/DiscMover.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSortDemo.java" tooltip="Lab09/quicksort/QuickSortDemo.java">
+<persistable path="/Lab09/quicksort/QuickSortDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiscMove.java" tooltip="Lab08/src/DiscMove.java">
-<persistable path="/Lab08/src/DiscMove.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSorter.java" tooltip="Lab09/quicksort/QuickSorter.java">
+<persistable path="/Lab09/quicksort/QuickSorter.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Disc.java" tooltip="Lab08/src/Disc.java">
-<persistable path="/Lab08/src/Disc.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InsertionSortDemo.java" tooltip="Lab09/insertionsort/InsertionSortDemo.java">
+<persistable path="/Lab09/insertionsort/InsertionSortDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P11_2.java" tooltip="Lab07/src/P11_2.java">
-<persistable path="/Lab07/src/P11_2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InsertionSorter.java" tooltip="Lab09/insertionsort/InsertionSorter.java">
+<persistable path="/Lab09/insertionsort/InsertionSorter.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="P11_15.java" tooltip="Lab07/src/P11_15.java">
-<persistable path="/Lab07/src/P11_15.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SelectionSortTimer.java" tooltip="CH14/selsort/SelectionSortTimer.java">
+<persistable path="/CH14/selsort/SelectionSortTimer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Palindrome.java" tooltip="DivineCode/src/Palindrome.java">
-<persistable path="/DivineCode/src/Palindrome.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="java" tooltip="CH14/selsort/java">
+<persistable path="/CH14/selsort/java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="ghdgfh.ml" tooltip="CamlLOL/ghdgfh.ml">
-<persistable path="/CamlLOL/ghdgfh.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearcher2.java" tooltip="CH14/binsearch/BinarySearcher2.java">
+<persistable path="/CH14/binsearch/BinarySearcher2.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mys.java" tooltip="testQuz/src/mys.java">
-<persistable path="/testQuz/src/mys.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchDemo.java" tooltip="CH14/binsearch/BinarySearchDemo.java">
+<persistable path="/CH14/binsearch/BinarySearchDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loop.java" tooltip="testQuz/src/Loop.java">
-<persistable path="/testQuz/src/Loop.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearcher.java" tooltip="CH14/binsearch/BinarySearcher.java">
+<persistable path="/CH14/binsearch/BinarySearcher.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PermutationGeneratorDemo.java" tooltip="DivineCode/src/PermutationGeneratorDemo.java">
-<persistable path="/DivineCode/src/PermutationGeneratorDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinearSearcher.java" tooltip="CH14/linsearch/LinearSearcher.java">
+<persistable path="/CH14/linsearch/LinearSearcher.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="OCamlMakefile" tooltip="CamlLOL/OCamlMakefile">
-<persistable path="/CamlLOL/OCamlMakefile"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MergeSortDemo.java" tooltip="CH14/mergesort/MergeSortDemo.java">
+<persistable path="/CH14/mergesort/MergeSortDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Makefile" tooltip="CamlLOL/Makefile">
-<persistable path="/CamlLOL/Makefile"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayUtil.java" tooltip="CH14/mergesort/ArrayUtil.java">
+<persistable path="/CH14/mergesort/ArrayUtil.java"/>
 </file>
 </mruList>
 </workbench>

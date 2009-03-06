@@ -10,7 +10,7 @@ Yellow
 Green
 Blue
 
-9
+12
 Wheelbarrow
 Thimble
 Cannon
@@ -20,6 +20,9 @@ Car
 Battleship
 Dog
 Horserider
+Scottish Terrier
+Iron
+Top Hat
 
 6
 GO!

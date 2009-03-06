@@ -31,9 +31,7 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
    public static final double BASE_WIDTH = 400;
    public static final double BASE_HEIGHT = 30;
    //We use this array to ensure that the discs are different colors.
-   public static final Color[] COLORS = {Color.RED, Color.BLUE, Color.GREEN,
-      Color.CYAN, Color.DARK_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK,
-      Color.LIGHT_GRAY, Color.YELLOW};
+   public static final Color[] COLORS = {Color.RED, Color.ORANGE};
    
    //This ArrayList will store the moves in chronological order to solve
    // the puzzle.
@@ -72,7 +70,7 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
       towers = new ArrayList<Tower>();
       
       move = 0; //so we start on move # 1
-      numDiscs = 6; //CHANGE THIS FOR DIFFERENT PUZZLE SIZES
+      numDiscs = 15; //CHANGE THIS FOR DIFFERENT PUZZLE SIZES
       delay = 10; //milliseconds
       discToMove = null; //this is because we haven't begun moving the discs
       
@@ -100,7 +98,7 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
                                           (DISC_HEIGHT * (numDiscs - i))),
                                        DISC_WIDTH + (i * DISC_WIDTH_FACTOR),
                                        DISC_HEIGHT,
-                                       COLORS[i]));
+                                       COLORS[i % COLORS.length]));
       }//end for
       
       //Set the Applet up to detect keyboard input
@@ -332,18 +330,18 @@ public class TowersOfHanoi extends Applet implements Runnable, KeyListener
       // the up or down arrow keys.
       if(e.getKeyCode() == KeyEvent.VK_UP)
       {
-         delay ++;
-         if (delay > 10)
+         delay --;
+         while (delay < 0)
          {
-            delay = 10;
+            delay = 0;
          }
       }
       else if(e.getKeyCode() == KeyEvent.VK_DOWN)
       {
-         delay --;
-         if (delay < 0)
+         delay ++;
+         if (delay > 10)
          {
-            delay = 0;
+            delay = 10;
          }
       }
       
