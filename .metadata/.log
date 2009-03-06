@@ -9822,3 +9822,100 @@ Binding(COMMAND+=,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2009-03-06 16:12:47.774 -----------------------------------------------
+eclipse.buildId=I20070625-1500
+java.version=1.5.0_16
+java.vendor=Apple Computer, Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -keyring /Users/tzaki/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -keyring /Users/tzaki/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2009-03-06 16:12:57.935
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-03-06 16:12:57.935
+!MESSAGE A conflict occurred for COMMAND+=:
+Binding(COMMAND+=,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_in,Zoom In,
+		Zoom In,
+		Category(org.eclipse.gef.category.view,View,View,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+=,
+	ParameterizedCommand(Command(Ocaml.stepOverCommand,Step Over,
+		,
+		Category(Ocaml.commandscategory,Ocaml Commands,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 0 2009-03-06 16:13:03.252
+!MESSAGE While loading class "org.eclipse.jdt.internal.debug.ui.MemberActionFilter", thread "Thread[Worker-0,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "update@plugins/org.eclipse.jdt.debug.ui_3.2.100.v20070531-1800.jar [74]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.jdt.internal.debug.ui.MemberActionFilter" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "update@plugins/org.eclipse.jdt.debug.ui_3.2.100.v20070531-1800.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1141)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:258)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at org.eclipse.jdt.internal.debug.ui.ActionFilterAdapterFactory.getAdapter(ActionFilterAdapterFactory.java:42)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:277)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at org.eclipse.ui.internal.util.Util.getAdapter(Util.java:106)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.getActionFilter(ActionExpression.java:471)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.preciselyMatches(ActionExpression.java:524)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.isEnabledFor(ActionExpression.java:499)
+	at org.eclipse.ui.internal.ActionExpression$AndExpression.isEnabledFor(ActionExpression.java:132)
+	at org.eclipse.ui.internal.ActionExpression$SingleExpression.isEnabledFor(ActionExpression.java:743)
+	at org.eclipse.ui.internal.ActionExpression.isEnabledFor(ActionExpression.java:1053)
+	at org.eclipse.ui.internal.decorators.DecoratorDefinition.isEnabledFor(DecoratorDefinition.java:281)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.getDecoratorsFor(DecoratorManager.java:193)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecoratorsFor(LightweightDecoratorManager.java:292)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:315)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:369)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:329)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 30 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1141)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:258)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:408)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at org.eclipse.jdt.internal.debug.ui.ActionFilterAdapterFactory.getAdapter(ActionFilterAdapterFactory.java:42)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:277)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at org.eclipse.ui.internal.util.Util.getAdapter(Util.java:106)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.getActionFilter(ActionExpression.java:471)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.preciselyMatches(ActionExpression.java:524)
+	at org.eclipse.ui.internal.ActionExpression$ObjectStateExpression.isEnabledFor(ActionExpression.java:499)
+	at org.eclipse.ui.internal.ActionExpression$AndExpression.isEnabledFor(ActionExpression.java:132)
+	at org.eclipse.ui.internal.ActionExpression$SingleExpression.isEnabledFor(ActionExpression.java:743)
+	at org.eclipse.ui.internal.ActionExpression.isEnabledFor(ActionExpression.java:1053)
+	at org.eclipse.ui.internal.decorators.DecoratorDefinition.isEnabledFor(DecoratorDefinition.java:281)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.getDecoratorsFor(DecoratorManager.java:193)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecoratorsFor(LightweightDecoratorManager.java:292)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:315)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:369)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:329)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

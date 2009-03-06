@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="binsearch"/>
+	<classpathentry kind="src" path="insertionsort"/>
+	<classpathentry kind="src" path="linsearch"/>
+	<classpathentry kind="src" path="mergesort"/>
+	<classpathentry kind="src" path="quicksort"/>
+	<classpathentry kind="src" path="selsort"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
